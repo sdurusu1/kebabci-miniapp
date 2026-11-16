@@ -68,6 +68,14 @@ function openDetail(home, away, score, pct, league, time, key) {
     <p class="small">${league} · ${time}</p>
     <p style="font-size:20px"><b class="${cls}">${score}</b> (%${p})</p>
     <p class="small">Güven: ${p >= 65 ? "Yüksek" : p >= 55 ? "Orta" : "Düşük"}</p>
+    <hr style="border-color:#333;margin:10px 0">
+    <p><b>Kısa Değerlendirme</b></p>
+    <p class="small">
+      ${p >= 65 ? "Bu maçta model yüksek güvenle bu skoru öngörüyor." : 
+        p >= 55 ? "Orta seviye güven. Sürpriz ihtimali var." : 
+        "Düşük güven. Sonuç belirsiz olabilir."}<br><br>
+      Lig temposu ve takımların genel formu dikkate alınmıştır.
+    </p>
     <button onclick="closeModal()" style="margin-top:12px">Kapat</button>
   `;
   document.getElementById("modal").classList.add("show");
