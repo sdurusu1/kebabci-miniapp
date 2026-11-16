@@ -1,24 +1,25 @@
 let matches = [];
 let favs = JSON.parse(localStorage.getItem("favs") || "[]");
+let notes = JSON.parse(localStorage.getItem("notes") || "{}");
 let current = "all";
+let sortDesc = true;
 
 async function start() {
   try {
     const res = await fetch("miniapp_matches.json?x=" + Date.now());
-    const data = await res.json();
-    matches = data.matches || [];
+    matches = (await res.json()).matches || [];
     fill();
     show();
-  } catch (e) {
-    document.getElementById("out").innerHTML = "Veri yüklenemedi";
+  } catch {
+    document.getElementById("out").innerHTML = "<p class='small'>Veri yüklenemedi</p>";
   }
 }
 
 function fill() {
   const days = [...new Set(matches.map(m => m.date || "bugün"))].sort();
   const leagues = [...new Set(matches.map(m => m.league).filter(Boolean))].sort();
-  document.getElementById("day").innerHTML = days.map(d => `<option value="${d}">${d}</option>`).join("");
-  document.getElementById("league").innerHTML = `<option value="">Tüm Ligler</option>` + leagues.map(l => `<option value="${l}">${l}</option>`).join("");
+  document.getElementById("day").innerHTML = days.map(d => `<option>${d}</option>`).join("");
+  document.getElementById("league").innerHTML = `<option value="">Tüm Ligler</option>` + leagues.map(l => `<option>${l}</option>`).join("");
 }
 
 function show() {
@@ -30,26 +31,60 @@ function show() {
   if (current === "high") list = list.filter(m => (m.pct||0) >= 65);
   if (current === "fav") list = list.filter(m => favs.includes(m.home+m.away));
   if (q) list = list.filter(m => (m.home+" "+m.away).toLowerCase().includes(q));
+  list.sort((a,b) => sortDesc ? (b.pct||0)-(a.pct||0) : (a.pct||0)-(b.pct||0));
 
   const box = document.getElementById("out");
-  if (!list.length) { box.innerHTML = "<p>Maç yok</p>"; return; }
-  box.innerHTML = list.map(m => {
+  if (!list.length) { box.innerHTML = "<p class='small'>Bu filtrede maç yok</p>"; return; }
+  box.innerHTML = list.map((m,i) => {
     const key = m.home + m.away;
     const star = favs.includes(key) ? "⭐ " : "";
-    return `<div class="card">
+    const cls = (m.pct||0) >= 65 ? "high" : (m.pct||0) >= 55 ? "mid" : "low";
+    const n = notes[key] ? `<div class="small">📝 ${notes[key]}</div>` : "";
+    return `<div class="card" onclick="openDetail(${i})">
       <b>${star}${m.home} – ${m.away}</b><br>
       <span class="small">${m.league} · ${m.kickoff}</span><br>
-      <span class="score">${m.score}</span> <span class="small">(%${m.pct})</span><br>
-      <button onclick="toggle('${key}')" style="margin-top:6px;font-size:12px">Favori</button>
+      <span class="score ${cls}">${m.score}</span> <span class="small">(%${m.pct})</span>
+      ${n}
     </div>`;
   }).join("");
 }
 
+function openDetail(i) {
+  const m = matches[i];
+  if (!m) return;
+  const key = m.home + m.away;
+  document.getElementById("panel").innerHTML = `
+    <h3>${m.home} – ${m.away}</h3>
+    <p class="small">${m.league} · ${m.kickoff}</p>
+    <p style="font-size:18px;margin:10px 0"><b>${m.score}</b> <span class="${(m.pct||0)>=65?'high':(m.pct||0)>=55?'mid':'low'}">(%${m.pct})</span></p>
+    <p class="small">Detaylı analiz yakında eklenecek.</p>
+    <div style="margin-top:12px">
+      <button onclick="toggleFav('${key}')">Favori</button>
+      <button onclick="editNote('${key}')">Not</button>
+      <button onclick="copyMatch('${m.home}','${m.away}','${m.score}',${m.pct})">Kopyala</button>
+      <button onclick="closeModal()">Kapat</button>
+    </div>
+  `;
+  document.getElementById("modal").classList.add("show");
+}
+
+function closeModal() { document.getElementById("modal").classList.remove("show"); }
 function filter(t) { current = t; show(); }
-function toggle(key) {
+function sortToggle() { sortDesc = !sortDesc; show(); }
+function toggleFav(key) {
   favs = favs.includes(key) ? favs.filter(x => x !== key) : [...favs, key];
   localStorage.setItem("favs", JSON.stringify(favs));
-  show();
+  closeModal(); show();
+}
+function editNote(key) {
+  const v = prompt("Not", notes[key] || "");
+  if (v === null) return;
+  if (v) notes[key] = v; else delete notes[key];
+  localStorage.setItem("notes", JSON.stringify(notes));
+  closeModal(); show();
+}
+function copyMatch(h,a,s,p) {
+  navigator.clipboard.writeText(`${h} - ${a}\n${s} (%${p})\nKEBABCI`).then(() => alert("Kopyalandı"));
 }
 
 document.getElementById("day").onchange = show;
