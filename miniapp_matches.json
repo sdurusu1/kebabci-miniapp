@@ -1,96 +1,6 @@
 {
   "matches": [
     {
-      "date": "2026-11-16",
-      "home": "Kazakhstan",
-      "away": "Slovakia",
-      "kickoff": "18:00",
-      "league": "UEFA Nations League",
-      "score": "1-3",
-      "pct": 67
-    },
-    {
-      "date": "2026-11-16",
-      "home": "Faroe Islands",
-      "away": "Moldova",
-      "kickoff": "18:00",
-      "league": "UEFA Nations League",
-      "score": "1-1",
-      "pct": 39
-    },
-    {
-      "date": "2026-11-16",
-      "home": "Iceland",
-      "away": "Luxembourg",
-      "kickoff": "20:00",
-      "league": "UEFA Nations League",
-      "score": "3-1",
-      "pct": 65
-    },
-    {
-      "date": "2026-11-16",
-      "home": "Lithuania",
-      "away": "Liechtenstein",
-      "kickoff": "20:00",
-      "league": "UEFA Nations League",
-      "score": "0-0",
-      "pct": 34
-    },
-    {
-      "date": "2026-11-16",
-      "home": "Estonia",
-      "away": "Bulgaria",
-      "kickoff": "20:00",
-      "league": "UEFA Nations League",
-      "score": "0-0",
-      "pct": 44
-    },
-    {
-      "date": "2026-11-16",
-      "home": "Switzerland",
-      "away": "Scotland",
-      "kickoff": "22:45",
-      "league": "UEFA Nations League",
-      "score": "3-1",
-      "pct": 78
-    },
-    {
-      "date": "2026-11-16",
-      "home": "Germany",
-      "away": "Netherlands",
-      "kickoff": "22:45",
-      "league": "UEFA Nations League",
-      "score": "2-2",
-      "pct": 41
-    },
-    {
-      "date": "2026-11-16",
-      "home": "Gibraltar",
-      "away": "Malta",
-      "kickoff": "22:45",
-      "league": "UEFA Nations League",
-      "score": "0-0",
-      "pct": 62
-    },
-    {
-      "date": "2026-11-16",
-      "home": "FYR Macedonia",
-      "away": "Slovenia",
-      "kickoff": "22:45",
-      "league": "UEFA Nations League",
-      "score": "0-2",
-      "pct": 67
-    },
-    {
-      "date": "2026-11-16",
-      "home": "Greece",
-      "away": "Serbia",
-      "kickoff": "22:45",
-      "league": "UEFA Nations League",
-      "score": "0-0",
-      "pct": 56
-    },
-    {
       "date": "2026-11-17",
       "home": "Denmark",
       "away": "Norway",
@@ -115,7 +25,7 @@
       "kickoff": "22:45",
       "league": "UEFA Nations League",
       "score": "1-3",
-      "pct": 64
+      "pct": 62
     },
     {
       "date": "2026-11-17",
@@ -142,7 +52,7 @@
       "kickoff": "22:45",
       "league": "UEFA Nations League",
       "score": "1-1",
-      "pct": 49
+      "pct": 46
     },
     {
       "date": "2026-11-17",
@@ -168,8 +78,8 @@
       "away": "Santos",
       "kickoff": "01:30",
       "league": "Brasileiro Serie A",
-      "score": "1-2",
-      "pct": 43
+      "score": "2-2",
+      "pct": 44
     },
     {
       "date": "2026-11-19",
@@ -213,9 +123,162 @@
       "away": "Botafogo",
       "kickoff": "03:30",
       "league": "Brasileiro Serie A",
+      "score": "2-1",
+      "pct": 42
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Vasco DA Gama",
+      "away": "Internacional",
+      "kickoff": "01:30",
+      "league": "Brasileiro Serie A",
+      "score": "2-2",
+      "pct": 54
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Vitoria",
+      "away": "RB Bragantino",
+      "kickoff": "01:30",
+      "league": "Brasileiro Serie A",
       "score": "1-1",
+      "pct": 37
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Sao Paulo",
+      "away": "Fluminense",
+      "kickoff": "03:30",
+      "league": "Brasileiro Serie A",
+      "score": "2-2",
+      "pct": 44
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Orlando City SC",
+      "away": "FC Cincinnati",
+      "kickoff": "03:30",
+      "league": "MLS",
+      "score": "3-2",
+      "pct": 50
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Seattle Sounders",
+      "away": "Real Salt Lake",
+      "kickoff": "06:00",
+      "league": "MLS",
+      "score": "2-2",
       "pct": 40
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Kashima",
+      "away": "Shimizu S-pulse",
+      "kickoff": "13:00",
+      "league": "J1 League",
+      "score": "2-1",
+      "pct": 70
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Kashiwa Reysol",
+      "away": "JEF United Chiba",
+      "kickoff": "13:00",
+      "league": "J1 League",
+      "score": "3-1",
+      "pct": 66
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Vissel Kobe",
+      "away": "Mito Hollyhock",
+      "kickoff": "13:00",
+      "league": "J1 League",
+      "score": "3-1",
+      "pct": 75
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Iğdır FK",
+      "away": "Ümraniyespor",
+      "kickoff": "20:00",
+      "league": "1. Lig",
+      "score": "0-0",
+      "pct": 44
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Piast Gliwice",
+      "away": "Korona Kielce",
+      "kickoff": "20:00",
+      "league": "Ekstraklasa",
+      "score": "3-1",
+      "pct": 63
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Molde",
+      "away": "Bodo/Glimt",
+      "kickoff": "21:00",
+      "league": "Eliteserien",
+      "score": "3-2",
+      "pct": 42
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Aarhus",
+      "away": "Lyngby",
+      "kickoff": "21:00",
+      "league": "Superliga",
+      "score": "2-1",
+      "pct": 61
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Bayern München",
+      "away": "1. FC Köln",
+      "kickoff": "22:30",
+      "league": "Bundesliga",
+      "score": "6-1",
+      "pct": 65
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Pogon Szczecin",
+      "away": "Slask Wroclaw",
+      "kickoff": "22:30",
+      "league": "Ekstraklasa",
+      "score": "3-1",
+      "pct": 59
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Estac Troyes",
+      "away": "Le Havre",
+      "kickoff": "22:45",
+      "league": "Ligue 1",
+      "score": "2-1",
+      "pct": 46
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Cercle Brugge",
+      "away": "KVC Westerlo",
+      "kickoff": "22:45",
+      "league": "Pro League",
+      "score": "2-2",
+      "pct": 46
+    },
+    {
+      "date": "2026-11-20",
+      "home": "Athletic Club",
+      "away": "Espanyol",
+      "kickoff": "23:00",
+      "league": "La Liga",
+      "score": "3-1",
+      "pct": 57
     }
   ],
-  "updated": "2026-11-16T17:52:07.650189+03:00"
+  "updated": "2026-11-17T02:15:25.692799+03:00"
 }
