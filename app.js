@@ -8,15 +8,15 @@ const matchesEl = document.getElementById("matches");
 async function loadMatches() {
   try {
     statusEl.textContent = "Maçlar yükleniyor...";
-    const data = [
-      { home: "Galatasaray", away: "Fenerbahçe", kickoff: "20:00", league: "Süper Lig", score: "2-1", pct: 68 },
-      { home: "Real Madrid", away: "Barcelona", kickoff: "22:00", league: "La Liga", score: "1-1", pct: 54 },
-      { home: "Manchester City", away: "Liverpool", kickoff: "18:30", league: "Premier League", score: "2-0", pct: 72 }
-    ];
-    render(data);
-    statusEl.textContent = "Örnek veri";
+    // miniapp_matches.json dosyasını aynı klasöre koyunca çalışır
+    const res = await fetch("miniapp_matches.json?t=" + Date.now());
+    if (!res.ok) throw new Error("no file");
+    const json = await res.json();
+    render(json.matches || []);
+    statusEl.textContent = "";
   } catch (e) {
-    statusEl.textContent = "Veri yüklenemedi";
+    statusEl.textContent = "Veri dosyası bulunamadı";
+    matchesEl.innerHTML = '<div class="empty">miniapp_matches.json yüklenmedi</div>';
   }
 }
 
