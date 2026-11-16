@@ -1,68 +1,58 @@
-let all = [];
-let mode = "all";
-let favs = JSON.parse(localStorage.getItem("fav") || "[]");
-let notes = JSON.parse(localStorage.getItem("notes") || "{}");
+let matches = [];
+let favs = JSON.parse(localStorage.getItem("favs") || "[]");
+let current = "all";
 
-async function load() {
+async function start() {
   try {
-    const r = await fetch("miniapp_matches.json?" + Date.now());
-    const j = await r.json();
-    all = j.matches || [];
-    // Tarih yoksa bugünü kullan
-    all.forEach(m => { if (!m.date) m.date = "bugün"; });
-    const dates = [...new Set(all.map(m => m.date))].filter(Boolean);
-    const leagues = [...new Set(all.map(m => m.league))].filter(Boolean);
-    const ds = document.getElementById("dateSel");
-    const ls = document.getElementById("leagueSel");
-    ds.innerHTML = dates.map(d => `<option value="${d}">${d}</option>`).join("") || "<option>bugün</option>";
-    ls.innerHTML = `<option value="">Tüm Ligler</option>` + leagues.map(l => `<option value="${l}">${l}</option>`).join("");
-    draw();
+    const res = await fetch("miniapp_matches.json?x=" + Date.now());
+    const data = await res.json();
+    matches = data.matches || [];
+    fill();
+    show();
   } catch (e) {
-    document.getElementById("list").innerHTML = "Veri yüklenemedi";
+    document.getElementById("out").innerHTML = "Veri yüklenemedi";
   }
 }
 
-function draw() {
-  const date = document.getElementById("dateSel").value;
-  const league = document.getElementById("leagueSel").value;
-  const q = (document.getElementById("q").value || "").toLowerCase();
-  let list = all.filter(m => !date || m.date === date);
-  if (league) list = list.filter(m => m.league === league);
-  if (mode === "high") list = list.filter(m => (m.pct || 0) >= 65);
-  if (mode === "fav") list = list.filter(m => favs.includes((m.home||"")+(m.away||"")));
-  if (q) list = list.filter(m => ((m.home||"")+(m.away||"")).toLowerCase().includes(q));
+function fill() {
+  const days = [...new Set(matches.map(m => m.date || "bugün"))].sort();
+  const leagues = [...new Set(matches.map(m => m.league).filter(Boolean))].sort();
+  document.getElementById("day").innerHTML = days.map(d => `<option value="${d}">${d}</option>`).join("");
+  document.getElementById("league").innerHTML = `<option value="">Tüm Ligler</option>` + leagues.map(l => `<option value="${l}">${l}</option>`).join("");
+}
 
-  const box = document.getElementById("list");
-  if (!list.length) { box.innerHTML = "Maç yok"; return; }
+function show() {
+  const day = document.getElementById("day").value;
+  const lg = document.getElementById("league").value;
+  const q = document.getElementById("search").value.toLowerCase();
+  let list = matches.filter(m => (m.date || "bugün") === day);
+  if (lg) list = list.filter(m => m.league === lg);
+  if (current === "high") list = list.filter(m => (m.pct||0) >= 65);
+  if (current === "fav") list = list.filter(m => favs.includes(m.home+m.away));
+  if (q) list = list.filter(m => (m.home+" "+m.away).toLowerCase().includes(q));
+
+  const box = document.getElementById("out");
+  if (!list.length) { box.innerHTML = "<p>Maç yok</p>"; return; }
   box.innerHTML = list.map(m => {
-    const k = (m.home||"")+(m.away||"");
-    const star = favs.includes(k) ? "⭐" : "☆";
+    const key = m.home + m.away;
+    const star = favs.includes(key) ? "⭐ " : "";
     return `<div class="card">
-      <b>${star} ${m.home} – ${m.away}</b><br>
-      <span class="small">${m.league||""} · ${m.kickoff||""} · ${m.score||"-"} (%${m.pct||"?"})</span>
-      <div style="margin-top:6px">
-        <button onclick="toggleFav('${k}')">Favori</button>
-        <button onclick="editNote('${k}')">Not</button>
-      </div>
+      <b>${star}${m.home} – ${m.away}</b><br>
+      <span class="small">${m.league} · ${m.kickoff}</span><br>
+      <span class="score">${m.score}</span> <span class="small">(%${m.pct})</span><br>
+      <button onclick="toggle('${key}')" style="margin-top:6px;font-size:12px">Favori</button>
     </div>`;
   }).join("");
 }
 
-function setMode(m) { mode = m; draw(); }
-function toggleFav(k) {
-  favs = favs.includes(k) ? favs.filter(x => x !== k) : [...favs, k];
-  localStorage.setItem("fav", JSON.stringify(favs));
-  draw();
-}
-function editNote(k) {
-  const v = prompt("Not", notes[k] || "");
-  if (v === null) return;
-  if (v) notes[k] = v; else delete notes[k];
-  localStorage.setItem("notes", JSON.stringify(notes));
-  draw();
+function filter(t) { current = t; show(); }
+function toggle(key) {
+  favs = favs.includes(key) ? favs.filter(x => x !== key) : [...favs, key];
+  localStorage.setItem("favs", JSON.stringify(favs));
+  show();
 }
 
-document.getElementById("dateSel").onchange = draw;
-document.getElementById("leagueSel").onchange = draw;
-document.getElementById("q").oninput = draw;
-load();
+document.getElementById("day").onchange = show;
+document.getElementById("league").onchange = show;
+document.getElementById("search").oninput = show;
+start();

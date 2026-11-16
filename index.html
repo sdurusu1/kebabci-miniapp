@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>KEBABCI</title>
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <style>
-body{background:#000;color:#fff;font-family:system-ui;margin:0;padding:10px}
-select,input,button{padding:8px;margin:4px 2px;background:#1c1c1e;color:#fff;border:0;border-radius:8px}
-button{background:#0a84ff}
-.card{background:#1c1c1e;padding:10px;margin:6px 0;border-radius:10px}
-.small{font-size:12px;color:#aaa}
+body { margin:0; background:#000; color:#fff; font-family:-apple-system,system-ui; padding:12px; }
+h2 { margin:0 0 8px; font-size:18px; }
+select, input { background:#1c1c1e; color:#fff; border:none; border-radius:8px; padding:8px; margin:4px 0; width:100%; }
+button { background:#0a84ff; color:#fff; border:none; border-radius:8px; padding:6px 10px; margin:3px; }
+.card { background:#1c1c1e; border-radius:12px; padding:12px; margin:8px 0; }
+.score { font-size:16px; font-weight:700; color:#30d158; }
+.small { font-size:12px; color:#8e8e93; }
 </style>
 </head>
 <body>
-<h3>📊 KEBABCI</h3>
-<select id="dateSel"></select>
-<select id="leagueSel"><option value="">Tüm Ligler</option></select>
-<input id="q" placeholder="Takım ara...">
+<h2>📊 KEBABCI</h2>
+<select id="day"></select>
+<select id="league"><option value="">Tüm Ligler</option></select>
+<input id="search" placeholder="Takım ara...">
 <div>
-  <button onclick="setMode('all')">Tümü</button>
-  <button onclick="setMode('high')">≥65%</button>
-  <button onclick="setMode('fav')">Favoriler</button>
-  <button onclick="sortMode()">Sırala</button>
+  <button onclick="filter('all')">Tümü</button>
+  <button onclick="filter('high')">≥65%</button>
+  <button onclick="filter('fav')">Favoriler</button>
 </div>
-<div id="list"></div>
+<div id="out"></div>
 <script src="app.js"></script>
 </body>
 </html>
