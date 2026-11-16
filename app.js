@@ -40,7 +40,10 @@ function show() {
     const star = favs.includes(key) ? "⭐ " : "";
     const cls = (m.pct||0) >= 65 ? "high" : (m.pct||0) >= 55 ? "mid" : "low";
     const n = notes[key] ? `<div class="small">📝 ${notes[key]}</div>` : "";
-    return `<div class="card" onclick="openDetail(this)" data-home="${m.home}" data-away="${m.away}" data-score="${m.score}" data-pct="${m.pct}" data-league="${m.league}" data-time="${m.kickoff}" data-key="${key}">
+    return `<div class="card" onclick="openDetail(this)" 
+      data-home="${esc(m.home)}" data-away="${esc(m.away)}" 
+      data-score="${m.score}" data-pct="${m.pct}" 
+      data-league="${esc(m.league)}" data-time="${m.kickoff}" data-key="${key}">
       <b>${star}${m.home} – ${m.away}</b><br>
       <span class="small">${m.league} · ${m.kickoff}</span><br>
       <span class="score ${cls}">${m.score}</span> <span class="small">(%${m.pct})</span>
@@ -49,30 +52,31 @@ function show() {
   }).join("");
 }
 
+function esc(s) { return (s||"").replace(/"/g,"""); }
+
 function openDetail(el) {
-  const home = el.dataset.home;
-  const away = el.dataset.away;
-  const score = el.dataset.score;
-  const pct = el.dataset.pct;
-  const league = el.dataset.league;
-  const time = el.dataset.time;
-  const key = el.dataset.key;
+  const d = el.dataset;
+  const pct = parseInt(d.pct) || 0;
   const cls = pct >= 65 ? "high" : pct >= 55 ? "mid" : "low";
+  const key = d.key;
   document.getElementById("panel").innerHTML = `
-    <h3>${home} – ${away}</h3>
-    <p class="small">${league} · ${time}</p>
-    <p style="font-size:20px;margin:12px 0"><b class="${cls}">${score}</b></p>
-    <p>Güven: <b>%${pct}</b></p>
-    <hr style="border-color:#333;margin:12px 0">
-    <p class="small"><b>Kısa Analiz</b><br>
-    • Tahmin güveni: %${pct}<br>
-    • Lig: ${league}<br>
-    • Saat: ${time}<br>
-    • Not: ${notes[key] || "Yok"}</p>
-    <div style="margin-top:14px;display:flex;gap:6px;flex-wrap:wrap">
-      <button onclick="toggleFav('${key}')">Favori</button>
-      <button onclick="editNote('${key}')">Not Ekle</button>
-      <button onclick="copyMatch('${home}','${away}','${score}',${pct})">Kopyala</button>
+    <h3 style="margin-top:0">${d.home} – ${d.away}</h3>
+    <p class="small">${d.league} · ${d.time}</p>
+    <div style="font-size:22px;margin:10px 0"><b class="${cls}">${d.score}</b></div>
+    <p>Güven skoru: <b class="${cls}">%${pct}</b></p>
+    <hr style="border:0;border-top:1px solid #333;margin:12px 0">
+    <p><b>Kısa Analiz</b></p>
+    <ul class="small" style="padding-left:18px;line-height:1.5">
+      <li>Tahmin güveni ${pct >= 65 ? "yüksek" : pct >= 55 ? "orta" : "düşük"} seviyede.</li>
+      <li>Lig: ${d.league}</li>
+      <li>Başlama: ${d.time}</li>
+      <li>Kişisel not: ${notes[key] || "Yok"}</li>
+    </ul>
+    <p class="small" style="margin-top:8px">Detaylı xG, form ve H2H analizi bot tarafında mevcut. Mini App’e daha fazla veri eklenebilir.</p>
+    <div style="margin-top:14px;display:flex;flex-wrap:wrap;gap:6px">
+      <button onclick="toggleFav('${key}')">${favs.includes(key)?"Favoriden Çıkar":"Favoriye Ekle"}</button>
+      <button onclick="editNote('${key}')">Not</button>
+      <button onclick="copyMatch('${d.home}','${d.away}','${d.score}',${pct})">Kopyala</button>
       <button onclick="closeModal()">Kapat</button>
     </div>
   `;
@@ -88,15 +92,14 @@ function toggleFav(key) {
   closeModal(); show();
 }
 function editNote(key) {
-  const v = prompt("Not yaz", notes[key] || "");
+  const v = prompt("Not", notes[key] || "");
   if (v === null) return;
   if (v.trim()) notes[key] = v.trim(); else delete notes[key];
   localStorage.setItem("notes", JSON.stringify(notes));
   closeModal(); show();
 }
 function copyMatch(h,a,s,p) {
-  const text = h + " - " + a + "\\nTahmin: " + s + " (%" + p + ")\\nKEBABCI";
-  navigator.clipboard.writeText(text).then(() => alert("Kopyalandı"));
+  navigator.clipboard.writeText(h+" - "+a+"\\n"+s+" (%"+p+")\\nKEBABCI İstatistik").then(()=>alert("Kopyalandı"));
 }
 
 document.getElementById("day").onchange = show;
