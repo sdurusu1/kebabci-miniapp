@@ -8,38 +8,43 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="brand">
-      <span class="logo">📊</span>
-      <div>
-        <h1>KEBABCI</h1>
-        <small>İstatistik Analiz</small>
+  <div class="container">
+    <div class="hero">
+      <div class="hero-top">
+        <div class="logo-box">📊</div>
+        <div>
+          <h1>KEBABCI</h1>
+          <div class="subtitle">İstatistik Analiz Platformu</div>
+        </div>
+        <div id="liveBadge" class="live">CANLI</div>
+      </div>
+      <div class="hero-stats">
+        <div><b id="totalMatches">-</b><small>Maç</small></div>
+        <div><b id="highConf">-</b><small>Yüksek</small></div>
+        <div><b id="avgPct">-</b><small>Ort. %</small></div>
       </div>
     </div>
-    <div id="subStatus" class="badge">Abonelik</div>
-  </header>
 
-  <div class="controls">
-    <input id="search" type="search" placeholder="Takım, lig, skor..." oninput="filter()">
-    <button onclick="reload()">🔄</button>
-    <button onclick="toggleSort()">⇅</button>
+    <div class="segment">
+      <button class="seg active" data-tab="all">Tümü</button>
+      <button class="seg" data-tab="high">Yüksek Güven</button>
+      <button class="seg" data-tab="fav">Favorilerim</button>
+      <button class="seg" data-tab="live">Canlı</button>
+    </div>
+
+    <div class="search-wrap">
+      <input id="searchInput" placeholder="Takım, lig veya skor ara...">
+      <button id="clearSearch">✕</button>
+    </div>
+
+    <div class="league-scroll" id="leagueScroll"></div>
+
+    <div id="matchList"></div>
   </div>
 
-  <div class="quick">
-    <button onclick="quick('Süper')">Süper Lig</button>
-    <button onclick="quick('Premier')">Premier</button>
-    <button onclick="quick('La Liga')">La Liga</button>
-    <button onclick="quick('Serie')">Serie A</button>
-    <button onclick="quick('Bundes')">Bundesliga</button>
-    <button onclick="quick('high')">Yüksek %</button>
-    <button onclick="clearAll()">Temizle</button>
-  </div>
-
-  <div id="summary" class="summary"></div>
-  <div id="matches"></div>
-
-  <div id="sheet" class="sheet" onclick="closeSheet()">
-    <div class="sheet-body" onclick="event.stopPropagation()"></div>
+  <div id="bottomSheet" class="bottom-sheet">
+    <div class="sheet-handle"></div>
+    <div id="sheetContent"></div>
   </div>
 
   <script src="app.js"></script>
