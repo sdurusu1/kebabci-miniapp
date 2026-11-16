@@ -7,14 +7,15 @@ const matchesEl = document.getElementById("matches");
 
 async function loadMatches() {
   try {
-    // Şimdilik örnek veri (sonra bot endpoint'ine bağlanacak)
-    const data = [
+    statusEl.textContent = "Maçlar yükleniyor...";
+    // Gerçek veri için bot tarafında endpoint gerekir.
+    // Şimdilik örnek + açıklama
+    const sample = [
       { home: "Galatasaray", away: "Fenerbahçe", kickoff: "20:00", league: "Süper Lig", score: "2-1", pct: 68 },
-      { home: "Real Madrid", away: "Barcelona", kickoff: "22:00", league: "La Liga", score: "1-1", pct: 54 },
-      { home: "Manchester City", away: "Liverpool", kickoff: "18:30", league: "Premier League", score: "2-0", pct: 72 }
+      { home: "Real Madrid", away: "Barcelona", kickoff: "22:00", league: "La Liga", score: "1-1", pct: 54 }
     ];
-    render(data);
-    statusEl.textContent = "";
+    render(sample);
+    statusEl.innerHTML = "Örnek veri gösteriliyor.<br><small>Gerçek maçlar için bot endpoint’i eklenecek.</small>";
   } catch (e) {
     statusEl.textContent = "Veri yüklenemedi";
   }
