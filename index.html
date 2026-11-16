@@ -1,52 +1,30 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>KEBABCI</title>
-  <script src="https://telegram.org/js/telegram-web-app.js"></script>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KEBABCI</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+body{background:#000;color:#fff;font-family:system-ui;margin:0;padding:10px}
+select,input,button{padding:8px;margin:4px 2px;background:#1c1c1e;color:#fff;border:0;border-radius:8px}
+button{background:#0a84ff}
+.card{background:#1c1c1e;padding:10px;margin:6px 0;border-radius:10px}
+.small{font-size:12px;color:#aaa}
+</style>
 </head>
 <body>
-  <div class="container">
-    <div class="hero">
-      <div class="hero-top">
-        <div class="logo-box">📊</div>
-        <div>
-          <h1>KEBABCI</h1>
-          <div class="subtitle">İstatistik Analiz Platformu</div>
-        </div>
-        <div id="liveBadge" class="live">CANLI</div>
-      </div>
-      <div class="hero-stats">
-        <div><b id="totalMatches">-</b><small>Maç</small></div>
-        <div><b id="highConf">-</b><small>Yüksek</small></div>
-        <div><b id="avgPct">-</b><small>Ort. %</small></div>
-      </div>
-    </div>
-
-    <div class="segment">
-      <button class="seg active" data-tab="all">Tümü</button>
-      <button class="seg" data-tab="high">Yüksek Güven</button>
-      <button class="seg" data-tab="fav">Favorilerim</button>
-      <button class="seg" data-tab="live">Canlı</button>
-    </div>
-
-    <div class="search-wrap">
-      <input id="searchInput" placeholder="Takım, lig veya skor ara...">
-      <button id="clearSearch">✕</button>
-    </div>
-
-    <div class="league-scroll" id="leagueScroll"></div>
-
-    <div id="matchList"></div>
-  </div>
-
-  <div id="bottomSheet" class="bottom-sheet">
-    <div class="sheet-handle"></div>
-    <div id="sheetContent"></div>
-  </div>
-
-  <script src="app.js"></script>
+<h3>📊 KEBABCI</h3>
+<select id="dateSel"></select>
+<select id="leagueSel"><option value="">Tüm Ligler</option></select>
+<input id="q" placeholder="Takım ara...">
+<div>
+  <button onclick="setMode('all')">Tümü</button>
+  <button onclick="setMode('high')">≥65%</button>
+  <button onclick="setMode('fav')">Favoriler</button>
+  <button onclick="sortMode()">Sırala</button>
+</div>
+<div id="list"></div>
+<script src="app.js"></script>
 </body>
 </html>

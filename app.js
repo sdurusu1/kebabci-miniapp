@@ -1,128 +1,66 @@
-let allMatches = [];
-let currentTab = "all";
-let currentLeague = "";
-let favorites = JSON.parse(localStorage.getItem("kebabci_fav") || "[]");
+let all = [];
+let mode = "all";
+let sortAsc = false;
+let favs = JSON.parse(localStorage.getItem("fav") || "[]");
+let notes = JSON.parse(localStorage.getItem("notes") || "{}");
 
-const leagues = ["Süper Lig", "Premier League", "La Liga", "Serie A", "Bundesliga", "Ligue 1"];
-
-async function init() {
-  await loadMatches();
-  buildLeagueChips();
-  setupEvents();
+async function load() {
+  const r = await fetch("miniapp_matches.json?" + Date.now());
+  all = (await r.json()).matches || [];
+  const dates = [...new Set(all.map(m => m.date))].sort();
+  const leagues = [...new Set(all.map(m => m.league))].sort();
+  document.getElementById("dateSel").innerHTML = dates.map(d => `<option>${d}</option>`).join("");
+  document.getElementById("leagueSel").innerHTML = `<option value="">Tüm Ligler</option>` + leagues.map(l => `<option>${l}</option>`).join("");
+  draw();
 }
 
-async function loadMatches() {
-  try {
-    const res = await fetch("miniapp_matches.json?t=" + Date.now());
-    const json = await res.json();
-    allMatches = json.matches || [];
-    updateHero();
-    render();
-  } catch (e) {
-    document.getElementById("matchList").innerHTML = '<div class="empty">Veri yüklenemedi</div>';
-  }
-}
+function draw() {
+  const date = document.getElementById("dateSel").value;
+  const league = document.getElementById("leagueSel").value;
+  const q = document.getElementById("q").value.toLowerCase();
+  let list = all.filter(m => m.date === date);
+  if (league) list = list.filter(m => m.league === league);
+  if (mode === "high") list = list.filter(m => m.pct >= 65);
+  if (mode === "fav") list = list.filter(m => favs.includes(m.home + m.away));
+  if (q) list = list.filter(m => (m.home + m.away).toLowerCase().includes(q));
+  list.sort((a,b) => sortAsc ? a.pct - b.pct : b.pct - a.pct);
 
-function updateHero() {
-  document.getElementById("totalMatches").textContent = allMatches.length;
-  const high = allMatches.filter(m => m.pct >= 65).length;
-  document.getElementById("highConf").textContent = high;
-  const avg = allMatches.length ? Math.round(allMatches.reduce((s,m) => s + (m.pct||0), 0) / allMatches.length) : 0;
-  document.getElementById("avgPct").textContent = avg + "%";
-}
-
-function buildLeagueChips() {
-  const el = document.getElementById("leagueScroll");
-  el.innerHTML = `<div class="league-chip active" onclick="setLeague('')">Tümü</div>` +
-    leagues.map(l => `<div class="league-chip" onclick="setLeague('${l}')">${l}</div>`).join("");
-}
-
-function setLeague(name) {
-  currentLeague = name;
-  document.querySelectorAll(".league-chip").forEach(c => c.classList.remove("active"));
-  event.target.classList.add("active");
-  render();
-}
-
-function render() {
-  let list = [...allMatches];
-  const q = document.getElementById("searchInput").value.toLowerCase();
-
-  if (currentTab === "high") list = list.filter(m => m.pct >= 65);
-  if (currentTab === "fav") list = list.filter(m => favorites.includes(m.home + m.away));
-  if (currentLeague) list = list.filter(m => (m.league || "").includes(currentLeague));
-  if (q) list = list.filter(m => (m.home + m.away + m.league + m.score).toLowerCase().includes(q));
-
-  const container = document.getElementById("matchList");
-  if (!list.length) {
-    container.innerHTML = '<div class="empty">Maç bulunamadı</div>';
-    return;
-  }
-
-  container.innerHTML = list.map(m => {
-    const key = m.home + m.away;
-    const isFav = favorites.includes(key);
-    const pctClass = m.pct >= 65 ? "pct-high" : m.pct >= 55 ? "pct-mid" : "pct-low";
-    return `
-      <div class="match-card" onclick="openSheet('${m.home}','${m.away}','${m.score}',${m.pct},'${m.league}','${m.kickoff}')">
-        <div class="match-header">
-          <div class="teams">${isFav ? "⭐ " : ""}${m.home} – ${m.away}</div>
-          <div class="time">${m.kickoff}</div>
-        </div>
-        <div class="league-name">${m.league}</div>
-        <div class="prediction">
-          <div class="score">${m.score}</div>
-          <div class="pct-badge ${pctClass}">%${m.pct}</div>
-        </div>
+  document.getElementById("list").innerHTML = list.map(m => {
+    const k = m.home + m.away;
+    const star = favs.includes(k) ? "⭐" : "☆";
+    const n = notes[k] ? `<div class="small">📝 ${notes[k]}</div>` : "";
+    return `<div class="card">
+      <b>${star} ${m.home} – ${m.away}</b><br>
+      <span class="small">${m.league} · ${m.kickoff} · ${m.score} (%${m.pct})</span>
+      ${n}
+      <div>
+        <button onclick="toggleFav('${k}')">Favori</button>
+        <button onclick="editNote('${k}')">Not</button>
+        <button onclick="copyText('${m.home} - ${m.away}\\n${m.score} (%${m.pct})')">Kopyala</button>
       </div>
-    `;
-  }).join("");
+    </div>`;
+  }).join("") || "Maç yok";
 }
 
-function openSheet(home, away, score, pct, league, time) {
-  const sheet = document.getElementById("bottomSheet");
-  document.getElementById("sheetContent").innerHTML = `
-    <h2 style="margin:10px 0">${home} – ${away}</h2>
-    <p style="color:#888">${league} · ${time}</p>
-    <div style="margin:16px 0;font-size:18px">Tahmin: <b>${score}</b></div>
-    <div>Güven: <b>%${pct}</b></div>
-    <button onclick="toggleFav('${home+away}')" style="width:100%;margin-top:16px;padding:12px;background:#007aff;color:white;border:none;border-radius:12px">
-      ${favorites.includes(home+away) ? "Favorilerden Çıkar" : "Favorilere Ekle"}
-    </button>
-    <button onclick="closeSheet()" style="width:100%;margin-top:8px;padding:12px;background:#333;color:white;border:none;border-radius:12px">Kapat</button>
-  `;
-  sheet.classList.add("open");
+function setMode(m) { mode = m; draw(); }
+function sortMode() { sortAsc = !sortAsc; draw(); }
+function toggleFav(k) {
+  favs = favs.includes(k) ? favs.filter(x => x !== k) : [...favs, k];
+  localStorage.setItem("fav", JSON.stringify(favs));
+  draw();
+}
+function editNote(k) {
+  const v = prompt("Not", notes[k] || "");
+  if (v === null) return;
+  if (v) notes[k] = v; else delete notes[k];
+  localStorage.setItem("notes", JSON.stringify(notes));
+  draw();
+}
+function copyText(t) {
+  navigator.clipboard.writeText(t).then(() => alert("Kopyalandı"));
 }
 
-function closeSheet() {
-  document.getElementById("bottomSheet").classList.remove("open");
-}
-
-function toggleFav(key) {
-  if (favorites.includes(key)) favorites = favorites.filter(x => x !== key);
-  else favorites.push(key);
-  localStorage.setItem("kebabci_fav", JSON.stringify(favorites));
-  closeSheet();
-  render();
-}
-
-function setupEvents() {
-  document.querySelectorAll(".seg").forEach(btn => {
-    btn.onclick = () => {
-      document.querySelectorAll(".seg").forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      currentTab = btn.dataset.tab;
-      render();
-    };
-  });
-  document.getElementById("clearSearch").onclick = () => {
-    document.getElementById("searchInput").value = "";
-    render();
-  };
-  document.getElementById("searchInput").oninput = render;
-  document.getElementById("bottomSheet").onclick = (e) => {
-    if (e.target.id === "bottomSheet") closeSheet();
-  };
-}
-
-init();
+document.getElementById("dateSel").onchange = draw;
+document.getElementById("leagueSel").onchange = draw;
+document.getElementById("q").oninput = draw;
+load();
