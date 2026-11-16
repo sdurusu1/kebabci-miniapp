@@ -9,33 +9,38 @@
 </head>
 <body>
   <header>
-    <div class="top">
-      <div class="logo">📊</div>
+    <div class="brand">
+      <span class="logo">📊</span>
       <div>
         <h1>KEBABCI</h1>
-        <p>İstatistik Analiz</p>
+        <small>İstatistik Analiz</small>
       </div>
     </div>
-    <div id="sub" class="sub">Abonelik durumu yükleniyor...</div>
+    <div id="subStatus" class="badge">Abonelik</div>
   </header>
 
-  <div class="search-bar">
-    <input id="q" type="search" placeholder="Takım, lig veya skor ara..." oninput="applyFilters()">
-    <button onclick="loadData()" title="Yenile">🔄</button>
+  <div class="controls">
+    <input id="search" type="search" placeholder="Takım, lig, skor..." oninput="filter()">
+    <button onclick="reload()">🔄</button>
+    <button onclick="toggleSort()">⇅</button>
   </div>
 
-  <div class="filters">
-    <button class="chip active" onclick="setLeague('')">Tümü</button>
-    <button class="chip" onclick="setLeague('Süper')">Süper Lig</button>
-    <button class="chip" onclick="setLeague('Premier')">Premier</button>
-    <button class="chip" onclick="setLeague('La Liga')">La Liga</button>
-    <button class="chip" onclick="setLeague('Serie')">Serie A</button>
-    <button class="chip" onclick="setLeague('Bundes')">Bundesliga</button>
+  <div class="quick">
+    <button onclick="quick('Süper')">Süper Lig</button>
+    <button onclick="quick('Premier')">Premier</button>
+    <button onclick="quick('La Liga')">La Liga</button>
+    <button onclick="quick('Serie')">Serie A</button>
+    <button onclick="quick('Bundes')">Bundesliga</button>
+    <button onclick="quick('high')">Yüksek %</button>
+    <button onclick="clearAll()">Temizle</button>
   </div>
 
-  <div class="stats" id="stats"></div>
-  <div id="list"></div>
-  <div id="modal" class="modal" onclick="closeModal()"></div>
+  <div id="summary" class="summary"></div>
+  <div id="matches"></div>
+
+  <div id="sheet" class="sheet" onclick="closeSheet()">
+    <div class="sheet-body" onclick="event.stopPropagation()"></div>
+  </div>
 
   <script src="app.js"></script>
 </body>
