@@ -35,12 +35,12 @@ function show() {
 
   const box = document.getElementById("out");
   if (!list.length) { box.innerHTML = "<p class='small'>Bu filtrede maç yok</p>"; return; }
-  box.innerHTML = list.map((m,i) => {
-    const key = m.home + m.away;
+  box.innerHTML = list.map(m => {
+    const key = m.home + "|" + m.away;
     const star = favs.includes(key) ? "⭐ " : "";
     const cls = (m.pct||0) >= 65 ? "high" : (m.pct||0) >= 55 ? "mid" : "low";
     const n = notes[key] ? `<div class="small">📝 ${notes[key]}</div>` : "";
-    return `<div class="card" onclick="openDetail(${i})">
+    return `<div class="card" onclick="openDetail('${m.home.replace(/'/g,"")}','${m.away.replace(/'/g,"")}','${m.score}','${m.pct}','${m.league}','${m.kickoff}','${key}')">
       <b>${star}${m.home} – ${m.away}</b><br>
       <span class="small">${m.league} · ${m.kickoff}</span><br>
       <span class="score ${cls}">${m.score}</span> <span class="small">(%${m.pct})</span>
@@ -49,19 +49,17 @@ function show() {
   }).join("");
 }
 
-function openDetail(i) {
-  const m = matches[i];
-  if (!m) return;
-  const key = m.home + m.away;
+function openDetail(home, away, score, pct, league, kickoff, key) {
+  const cls = pct >= 65 ? "high" : pct >= 55 ? "mid" : "low";
   document.getElementById("panel").innerHTML = `
-    <h3>${m.home} – ${m.away}</h3>
-    <p class="small">${m.league} · ${m.kickoff}</p>
-    <p style="font-size:18px;margin:10px 0"><b>${m.score}</b> <span class="${(m.pct||0)>=65?'high':(m.pct||0)>=55?'mid':'low'}">(%${m.pct})</span></p>
-    <p class="small">Detaylı analiz yakında eklenecek.</p>
-    <div style="margin-top:12px">
+    <h3>${home} – ${away}</h3>
+    <p class="small">${league} · ${kickoff}</p>
+    <p style="font-size:18px;margin:12px 0"><b class="${cls}">${score}</b> <span class="small">(%${pct})</span></p>
+    <p class="small">Form, xG ve H2H analizi yakında burada görünecek.</p>
+    <div style="margin-top:14px">
       <button onclick="toggleFav('${key}')">Favori</button>
       <button onclick="editNote('${key}')">Not</button>
-      <button onclick="copyMatch('${m.home}','${m.away}','${m.score}',${m.pct})">Kopyala</button>
+      <button onclick="copyMatch('${home}','${away}','${score}',${pct})">Kopyala</button>
       <button onclick="closeModal()">Kapat</button>
     </div>
   `;
@@ -84,7 +82,7 @@ function editNote(key) {
   closeModal(); show();
 }
 function copyMatch(h,a,s,p) {
-  navigator.clipboard.writeText(`${h} - ${a}\n${s} (%${p})\nKEBABCI`).then(() => alert("Kopyalandı"));
+  navigator.clipboard.writeText(h + " - " + a + "\\n" + s + " (%" + p + ")\\nKEBABCI").then(() => alert("Kopyalandı"));
 }
 
 document.getElementById("day").onchange = show;
