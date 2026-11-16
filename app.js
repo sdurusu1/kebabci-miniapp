@@ -76,7 +76,11 @@ function openDetail(home, away, score, pct, league, time, key) {
         "Düşük güven. Sonuç belirsiz olabilir."}<br><br>
       Lig temposu ve takımların genel formu dikkate alınmıştır.
     </p>
-    <button onclick="closeModal()" style="margin-top:12px">Kapat</button>
+    <div style="margin-top:12px;display:flex;gap:6px;flex-wrap:wrap">
+      <button onclick="copyDetail('${d.home}','${d.away}','${d.score}',${p})">Kopyala</button>
+      <button onclick="addNote('${key}')">Not</button>
+      <button onclick="closeModal()">Kapat</button>
+    </div>
   `;
   document.getElementById("modal").classList.add("show");
 }
@@ -88,3 +92,17 @@ document.getElementById("day").onchange = show;
 document.getElementById("league").onchange = show;
 document.getElementById("search").oninput = show;
 start();
+
+function copyDetail(h,a,s,p) {
+  const t = h + " - " + a + "\n" + s + " (%" + p + ")\nKEBABCI";
+  navigator.clipboard.writeText(t).then(() => alert("Kopyalandı"));
+}
+function addNote(key) {
+  const n = prompt("Not:", notes[key] || "");
+  if (n === null) return;
+  if (n.trim()) notes[key] = n.trim();
+  else delete notes[key];
+  localStorage.setItem("notes", JSON.stringify(notes));
+  closeModal();
+  show();
+}
