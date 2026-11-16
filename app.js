@@ -5,24 +5,25 @@ tg.expand();
 const statusEl = document.getElementById("status");
 const matchesEl = document.getElementById("matches");
 
+let allMatches = [];
+
 async function loadMatches() {
   try {
-    statusEl.textContent = "Maçlar yükleniyor...";
-    // miniapp_matches.json dosyasını aynı klasöre koyunca çalışır
+    statusEl.textContent = "Yükleniyor...";
     const res = await fetch("miniapp_matches.json?t=" + Date.now());
-    if (!res.ok) throw new Error("no file");
+    if (!res.ok) throw new Error();
     const json = await res.json();
-    render(json.matches || []);
-    statusEl.textContent = "";
+    allMatches = json.matches || [];
+    render(allMatches);
+    statusEl.textContent = allMatches.length ? "" : "Bugün maç yok";
   } catch (e) {
-    statusEl.textContent = "Veri dosyası bulunamadı";
-    matchesEl.innerHTML = '<div class="empty">miniapp_matches.json yüklenmedi</div>';
+    statusEl.textContent = "Veri yüklenemedi";
   }
 }
 
 function render(matches) {
-  if (!matches || !matches.length) {
-    matchesEl.innerHTML = '<div class="empty">Bugün maç yok</div>';
+  if (!matches.length) {
+    matchesEl.innerHTML = '<div class="empty">Maç bulunamadı</div>';
     return;
   }
   matchesEl.innerHTML = matches.map(m => {
@@ -35,6 +36,13 @@ function render(matches) {
       </div>
     `;
   }).join("");
+}
+
+// Basit lig filtresi
+function filterLeague(q) {
+  if (!q) return render(allMatches);
+  const f = allMatches.filter(m => (m.league || "").toLowerCase().includes(q.toLowerCase()));
+  render(f);
 }
 
 loadMatches();
