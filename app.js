@@ -67,7 +67,8 @@ function openDetail(home, away, score, pct, league, time, key) {
     <h3>${home} – ${away}</h3>
     <p class="small">${league} · ${time}</p>
     <p style="font-size:20px"><b class="${cls}">${score}</b> (%${p})</p>
-    <p class="small">Güven: ${p >= 65 ? "Yüksek" : p >= 55 ? "Orta" : "Düşük"}</p>
+    <p class="small">${league} · ${time}</p>
+    <p class="small">Güven: <b>${p >= 65 ? "Yüksek" : p >= 55 ? "Orta" : "Düşük"}</b></p>
     <hr style="border-color:#333;margin:10px 0">
     <p><b>Kısa Değerlendirme</b></p>
     <p class="small">
