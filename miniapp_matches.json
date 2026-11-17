@@ -278,7 +278,844 @@
       "league": "La Liga",
       "score": "3-1",
       "pct": 57
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Puebla",
+      "away": "Atletico San Luis",
+      "kickoff": "04:00",
+      "league": "Liga MX",
+      "score": "1-3",
+      "pct": 55
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Club Tijuana",
+      "away": "Atlante FC",
+      "kickoff": "06:00",
+      "league": "Liga MX",
+      "score": "2-1",
+      "pct": 62
+    },
+    {
+      "date": "2026-11-21",
+      "home": "FC Juarez",
+      "away": "Atlas",
+      "kickoff": "06:00",
+      "league": "Liga MX",
+      "score": "1-3",
+      "pct": 60
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Kyoto Sanga",
+      "away": "Urawa",
+      "kickoff": "08:00",
+      "league": "J1 League",
+      "score": "2-2",
+      "pct": 41
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Machida Zelvia",
+      "away": "V-varen Nagasaki",
+      "kickoff": "08:00",
+      "league": "J1 League",
+      "score": "3-1",
+      "pct": 71
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Sanfrecce Hiroshima",
+      "away": "Yokohama F. Marinos",
+      "kickoff": "08:00",
+      "league": "J1 League",
+      "score": "3-1",
+      "pct": 74
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Tokyo Verdy",
+      "away": "Nagoya Grampus",
+      "kickoff": "08:00",
+      "league": "J1 League",
+      "score": "1-1",
+      "pct": 38
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Jeonbuk Motors",
+      "away": "FC Seoul",
+      "kickoff": "08:00",
+      "league": "K League 1",
+      "score": "1-1",
+      "pct": 42
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Pohang Steelers",
+      "away": "FC Anyang",
+      "kickoff": "08:00",
+      "league": "K League 1",
+      "score": "0-0",
+      "pct": 36
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Cerezo Osaka",
+      "away": "FC Tokyo",
+      "kickoff": "09:00",
+      "league": "J1 League",
+      "score": "1-3",
+      "pct": 65
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Kawasaki Frontale",
+      "away": "Avispa Fukuoka",
+      "kickoff": "09:00",
+      "league": "J1 League",
+      "score": "3-1",
+      "pct": 70
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Gamba Osaka",
+      "away": "Fagiano Okayama",
+      "kickoff": "10:00",
+      "league": "J1 League",
+      "score": "2-2",
+      "pct": 43
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Gangwon FC",
+      "away": "Daejeon Citizen",
+      "kickoff": "10:30",
+      "league": "K League 1",
+      "score": "1-2",
+      "pct": 40
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Incheon United",
+      "away": "Ulsan Hyundai FC",
+      "kickoff": "10:30",
+      "league": "K League 1",
+      "score": "1-2",
+      "pct": 40
+    },
+    {
+      "date": "2026-11-21",
+      "home": "İstanbulspor",
+      "away": "Keçiörengücü",
+      "kickoff": "13:30",
+      "league": "1. Lig",
+      "score": "0-2",
+      "pct": 57
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Mardin 1969",
+      "away": "Bandırmaspor",
+      "kickoff": "13:30",
+      "league": "1. Lig",
+      "score": "0-0",
+      "pct": 51
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Gençlerbirliği S.K.",
+      "away": "Gaziantep FK",
+      "kickoff": "13:30",
+      "league": "Super Lig",
+      "score": "2-1",
+      "pct": 49
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Ostersunds FK",
+      "away": "Varbergs BoIS FC",
+      "kickoff": "15:00",
+      "league": "Allsvenskan",
+      "score": "1-1",
+      "pct": 44
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Southampton",
+      "away": "Derby",
+      "kickoff": "15:30",
+      "league": "Championship",
+      "score": "3-1",
+      "pct": 77
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Millwall",
+      "away": "QPR",
+      "kickoff": "15:30",
+      "league": "Championship",
+      "score": "3-1",
+      "pct": 53
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Norwich",
+      "away": "Cardiff",
+      "kickoff": "15:30",
+      "league": "Championship",
+      "score": "3-1",
+      "pct": 63
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Manchester City",
+      "away": "Fulham",
+      "kickoff": "15:30",
+      "league": "Premier League",
+      "score": "3-1",
+      "pct": 68
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Kayserispor",
+      "away": "Sarıyer",
+      "kickoff": "16:00",
+      "league": "1. Lig",
+      "score": "3-1",
+      "pct": 76
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Tromso",
+      "away": "Viking",
+      "kickoff": "16:00",
+      "league": "Eliteserien",
+      "score": "2-2",
+      "pct": 46
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Alaves",
+      "away": "Deportivo La Coruna",
+      "kickoff": "16:00",
+      "league": "La Liga",
+      "score": "0-0",
+      "pct": 45
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Galatasaray",
+      "away": "Samsunspor",
+      "kickoff": "16:00",
+      "league": "Super Lig",
+      "score": "4-1",
+      "pct": 72
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Amed",
+      "away": "Rizespor",
+      "kickoff": "16:00",
+      "league": "Super Lig",
+      "score": "3-1",
+      "pct": 78
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Cracovia Krakow",
+      "away": "Jagiellonia",
+      "kickoff": "16:45",
+      "league": "Ekstraklasa",
+      "score": "2-2",
+      "pct": 47
+    },
+    {
+      "date": "2026-11-21",
+      "home": "AIK Stockholm",
+      "away": "Degerfors IF",
+      "kickoff": "17:00",
+      "league": "Allsvenskan",
+      "score": "3-1",
+      "pct": 55
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Mjallby AIF",
+      "away": "Malmo FF",
+      "kickoff": "17:00",
+      "league": "Allsvenskan",
+      "score": "1-2",
+      "pct": 39
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Lazio",
+      "away": "Lecce",
+      "kickoff": "17:00",
+      "league": "Serie A",
+      "score": "2-1",
+      "pct": 62
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Como",
+      "away": "Cagliari",
+      "kickoff": "17:00",
+      "league": "Serie A",
+      "score": "2-1",
+      "pct": 63
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Borussia Mönchengladbach",
+      "away": "Borussia Dortmund",
+      "kickoff": "17:30",
+      "league": "Bundesliga",
+      "score": "1-3",
+      "pct": 58
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Bayer Leverkusen",
+      "away": "SC Paderborn 07",
+      "kickoff": "17:30",
+      "league": "Bundesliga",
+      "score": "3-1",
+      "pct": 72
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Eintracht Frankfurt",
+      "away": "1899 Hoffenheim",
+      "kickoff": "17:30",
+      "league": "Bundesliga",
+      "score": "3-2",
+      "pct": 55
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Union Berlin",
+      "away": "RB Leipzig",
+      "kickoff": "17:30",
+      "league": "Bundesliga",
+      "score": "2-2",
+      "pct": 42
+    },
+    {
+      "date": "2026-11-21",
+      "home": "SV Elversberg",
+      "away": "SC Freiburg",
+      "kickoff": "17:30",
+      "league": "Bundesliga",
+      "score": "2-2",
+      "pct": 50
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Wolves",
+      "away": "Charlton",
+      "kickoff": "18:00",
+      "league": "Championship",
+      "score": "3-1",
+      "pct": 69
+    },
+    {
+      "date": "2026-11-21",
+      "home": "West Ham",
+      "away": "Preston",
+      "kickoff": "18:00",
+      "league": "Championship",
+      "score": "3-1",
+      "pct": 70
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Sheffield Utd",
+      "away": "Watford",
+      "kickoff": "18:00",
+      "league": "Championship",
+      "score": "0-0",
+      "pct": 55
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Bolton",
+      "away": "Portsmouth",
+      "kickoff": "18:00",
+      "league": "Championship",
+      "score": "1-1",
+      "pct": 46
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Middlesbrough",
+      "away": "Bristol City",
+      "kickoff": "18:00",
+      "league": "Championship",
+      "score": "2-2",
+      "pct": 49
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Stoke City",
+      "away": "Birmingham",
+      "kickoff": "18:00",
+      "league": "Championship",
+      "score": "1-1",
+      "pct": 45
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Swansea",
+      "away": "West Brom",
+      "kickoff": "18:00",
+      "league": "Championship",
+      "score": "1-1",
+      "pct": 42
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Lincoln",
+      "away": "Wrexham",
+      "kickoff": "18:00",
+      "league": "Championship",
+      "score": "1-1",
+      "pct": 46
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Ham-Kam",
+      "away": "Fredrikstad",
+      "kickoff": "18:00",
+      "league": "Eliteserien",
+      "score": "2-2",
+      "pct": 45
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Bournemouth",
+      "away": "Nottingham Forest",
+      "kickoff": "18:00",
+      "league": "Premier League",
+      "score": "3-1",
+      "pct": 60
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Tottenham",
+      "away": "Ipswich",
+      "kickoff": "18:00",
+      "league": "Premier League",
+      "score": "3-2",
+      "pct": 61
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Chelsea",
+      "away": "Leeds",
+      "kickoff": "18:00",
+      "league": "Premier League",
+      "score": "3-1",
+      "pct": 58
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "kickoff": "18:00",
+      "league": "Premier League",
+      "score": "3-1",
+      "pct": 58
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Coventry",
+      "away": "Crystal Palace",
+      "kickoff": "18:00",
+      "league": "Premier League",
+      "score": "1-1",
+      "pct": 50
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Celtic",
+      "away": "ST Mirren",
+      "kickoff": "18:00",
+      "league": "Premiership",
+      "score": "3-1",
+      "pct": 78
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Hibernian",
+      "away": "Dundee Utd",
+      "kickoff": "18:00",
+      "league": "Premiership",
+      "score": "2-2",
+      "pct": 54
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Kilmarnock",
+      "away": "Aberdeen",
+      "kickoff": "18:00",
+      "league": "Premiership",
+      "score": "1-2",
+      "pct": 46
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Falkirk",
+      "away": "ST Johnstone",
+      "kickoff": "18:00",
+      "league": "Premiership",
+      "score": "2-0",
+      "pct": 53
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Charleroi",
+      "away": "St. Truiden",
+      "kickoff": "18:00",
+      "league": "Pro League",
+      "score": "3-1",
+      "pct": 66
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Rayo Vallecano",
+      "away": "Valencia",
+      "kickoff": "18:15",
+      "league": "La Liga",
+      "score": "1-0",
+      "pct": 41
+    },
+    {
+      "date": "2026-11-21",
+      "home": "NEC Nijmegen",
+      "away": "PSV Eindhoven",
+      "kickoff": "18:30",
+      "league": "Eredivisie",
+      "score": "3-4",
+      "pct": 56
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Fatih Karagümrük",
+      "away": "Boluspor",
+      "kickoff": "19:00",
+      "league": "1. Lig",
+      "score": "2-0",
+      "pct": 57
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Lask Linz",
+      "away": "TSV Hartberg",
+      "kickoff": "19:00",
+      "league": "Bundesliga Austria",
+      "score": "3-2",
+      "pct": 54
+    },
+    {
+      "date": "2026-11-21",
+      "home": "WSG Wattens",
+      "away": "Austria Lustenau",
+      "kickoff": "19:00",
+      "league": "Bundesliga Austria",
+      "score": "3-1",
+      "pct": 59
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Kocaelispor",
+      "away": "Fenerbahçe",
+      "kickoff": "19:00",
+      "league": "Super Lig",
+      "score": "1-1",
+      "pct": 42
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Nice",
+      "away": "Paris Saint Germain",
+      "kickoff": "19:15",
+      "league": "Ligue 1",
+      "score": "2-2",
+      "pct": 42
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Gais",
+      "away": "Vasteras SK FK",
+      "kickoff": "19:30",
+      "league": "Allsvenskan",
+      "score": "2-1",
+      "pct": 48
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Zaglebie Lubin",
+      "away": "Gornik Zabrze",
+      "kickoff": "19:30",
+      "league": "Ekstraklasa",
+      "score": "1-1",
+      "pct": 38
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Valerenga",
+      "away": "Start",
+      "kickoff": "20:00",
+      "league": "Eliteserien",
+      "score": "3-1",
+      "pct": 71
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Parma",
+      "away": "AS Roma",
+      "kickoff": "20:00",
+      "league": "Serie A",
+      "score": "1-3",
+      "pct": 77
+    },
+    {
+      "date": "2026-11-21",
+      "home": "BSC Young Boys",
+      "away": "FC Thun",
+      "kickoff": "20:00",
+      "league": "Super League",
+      "score": "5-3",
+      "pct": 45
+    },
+    {
+      "date": "2026-11-21",
+      "home": "FC Lugano",
+      "away": "Grasshoppers",
+      "kickoff": "20:00",
+      "league": "Super League",
+      "score": "3-1",
+      "pct": 79
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Genk",
+      "away": "RAAL La Louvière",
+      "kickoff": "20:15",
+      "league": "Pro League",
+      "score": "4-0",
+      "pct": 84
+    },
+    {
+      "date": "2026-11-21",
+      "home": "FC Schalke 04",
+      "away": "VfB Stuttgart",
+      "kickoff": "20:30",
+      "league": "Bundesliga",
+      "score": "1-1",
+      "pct": 43
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Sevilla",
+      "away": "Real Betis",
+      "kickoff": "20:30",
+      "league": "La Liga",
+      "score": "1-2",
+      "pct": 44
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Newcastle",
+      "away": "Arsenal",
+      "kickoff": "20:30",
+      "league": "Premier League",
+      "score": "1-2",
+      "pct": 48
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Utrecht",
+      "away": "Cambuur",
+      "kickoff": "20:45",
+      "league": "Eredivisie",
+      "score": "2-3",
+      "pct": 56
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Feyenoord",
+      "away": "Excelsior",
+      "kickoff": "20:45",
+      "league": "Eredivisie",
+      "score": "3-1",
+      "pct": 72
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Dundee",
+      "away": "Heart Of Midlothian",
+      "kickoff": "20:45",
+      "league": "Premiership",
+      "score": "2-2",
+      "pct": 43
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Grazer AK",
+      "away": "Rapid Vienna",
+      "kickoff": "21:30",
+      "league": "Bundesliga Austria",
+      "score": "1-3",
+      "pct": 75
+    },
+    {
+      "date": "2026-11-21",
+      "home": "New England Revolution",
+      "away": "Philadelphia Union",
+      "kickoff": "22:00",
+      "league": "MLS",
+      "score": "2-2",
+      "pct": 41
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Radomiak Radom",
+      "away": "Wisla Krakow",
+      "kickoff": "22:15",
+      "league": "Ekstraklasa",
+      "score": "2-2",
+      "pct": 45
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Palmeiras",
+      "away": "Flamengo",
+      "kickoff": "22:30",
+      "league": "Brasileiro Serie A",
+      "score": "2-2",
+      "pct": 48
+    },
+    {
+      "date": "2026-11-21",
+      "home": "FC Sion",
+      "away": "Servette FC",
+      "kickoff": "22:30",
+      "league": "Super League",
+      "score": "2-2",
+      "pct": 48
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Lille",
+      "away": "Lyon",
+      "kickoff": "22:45",
+      "league": "Ligue 1",
+      "score": "1-1",
+      "pct": 49
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Monaco",
+      "away": "Auxerre",
+      "kickoff": "22:45",
+      "league": "Ligue 1",
+      "score": "3-1",
+      "pct": 66
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Strasbourg",
+      "away": "Stade Brestois 29",
+      "kickoff": "22:45",
+      "league": "Ligue 1",
+      "score": "2-2",
+      "pct": 42
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Lens",
+      "away": "Toulouse",
+      "kickoff": "22:45",
+      "league": "Ligue 1",
+      "score": "2-2",
+      "pct": 46
+    },
+    {
+      "date": "2026-11-21",
+      "home": "KV Mechelen",
+      "away": "Club Brugge KV",
+      "kickoff": "22:45",
+      "league": "Pro League",
+      "score": "2-4",
+      "pct": 66
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Zulte Waregem",
+      "away": "Antwerp",
+      "kickoff": "22:45",
+      "league": "Pro League",
+      "score": "2-2",
+      "pct": 41
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Napoli",
+      "away": "Torino",
+      "kickoff": "22:45",
+      "league": "Serie A",
+      "score": "2-1",
+      "pct": 42
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Groningen",
+      "away": "Heerenveen",
+      "kickoff": "23:00",
+      "league": "Eredivisie",
+      "score": "2-2",
+      "pct": 51
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Telstar",
+      "away": "PEC Zwolle",
+      "kickoff": "23:00",
+      "league": "Eredivisie",
+      "score": "2-3",
+      "pct": 62
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Real Madrid",
+      "away": "Celta Vigo",
+      "kickoff": "23:00",
+      "league": "La Liga",
+      "score": "4-0",
+      "pct": 83
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Motherwell",
+      "away": "Rangers",
+      "kickoff": "23:00",
+      "league": "Premiership",
+      "score": "1-2",
+      "pct": 58
+    },
+    {
+      "date": "2026-11-21",
+      "home": "Bahia",
+      "away": "Coritiba",
+      "kickoff": "23:30",
+      "league": "Brasileiro Serie A",
+      "score": "3-1",
+      "pct": 61
     }
   ],
-  "updated": "2026-11-17T12:34:56.425648+03:00"
+  "updated": "2026-11-17T12:38:00.576683+03:00"
 }
