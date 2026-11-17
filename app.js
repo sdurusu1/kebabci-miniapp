@@ -63,12 +63,15 @@ function esc(s) { return String(s || "").replace(/'/g, ""); }
 function openDetail(home, away, score, pct, league, time, key) {
   const p = parseInt(pct) || 0;
   const cls = p >= 65 ? "high" : p >= 55 ? "mid" : "low";
+  const m = matches.find(x => x.home === home && x.away === away) || {};
   document.getElementById("panel").innerHTML = `
     <h3>${home} – ${away}</h3>
     <p class="small">${league} · ${time}</p>
     <p style="font-size:20px"><b class="${cls}">${score}</b> (%${p})</p>
-    <p class="small">${league} · ${time}</p>
     <p class="small">Güven: <b>${p >= 65 ? "Yüksek" : p >= 55 ? "Orta" : "Düşük"}</b></p>
+    ${m.xg_home ? `<p class="small">xG: ${m.xg_home} - ${m.xg_away || "?"}</p>` : ""}
+    ${m.form_home ? `<p class="small">Form: ${m.form_home} / ${m.form_away || "?"}</p>` : ""}
+    ${m.iy ? `<p class="small">İY: ${m.iy} · İY/MS: ${m.iy_ms || "-"}</p>` : ""}
     <hr style="border-color:#333;margin:10px 0">
     <p><b>Kısa Değerlendirme</b></p>
     <p class="small">
