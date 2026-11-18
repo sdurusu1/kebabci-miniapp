@@ -65,7 +65,8 @@ function openDetail(idx) {
     <p class="small">Güven: <b>${p>=65?"Yüksek":p>=55?"Orta":"Düşük"}</b></p>
     ${m.xg_home ? `<p class="small">xG: ${m.xg_home} - ${m.xg_away||"?"}</p>` : ""}
     ${m.form_home ? `<p class="small">Form: ${m.form_home} / ${m.form_away||"?"}</p>` : ""}
-    ${m.iy ? `<p class="small">İY: ${m.iy}</p>` : ""}
+    ${m.iy ? `<p class="small">İY Tahmin: ${m.iy}</p>` : ""}
+    <p class="small">Lig: ${m.league||"-"}</p>
     <p class="small" style="margin-top:8px">${p>=65?"Model bu skoru yüksek güvenle öngörüyor.":p>=55?"Orta güven. Dikkatli olun.":"Düşük güven."}</p>
     <button onclick="closeModal()" style="margin-top:12px">Kapat</button>
   `;
