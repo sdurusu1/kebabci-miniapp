@@ -34,8 +34,10 @@ function show() {
   if (lg) list = list.filter(m => m.league === lg);
   if (current === "high") list = list.filter(m => (m.pct || 0) >= 65);
   if (current === "fav") list = list.filter(m => favs.includes((m.home||"")+"|"+(m.away||"")));
+  if (current === "top5") { list = list.filter(m => (m.pct||0) >= 60).sort((a,b)=>(b.pct||0)-(a.pct||0)).slice(0,5); }
   if (q) list = list.filter(m => ((m.home||"")+(m.away||"")).toLowerCase().includes(q));
 
+  document.getElementById("count").textContent = list.length + " maç";
   const box = document.getElementById("out");
   if (!list.length) { box.innerHTML = "<p>Maç yok</p>"; return; }
   box.innerHTML = list.map((m, idx) => {
@@ -80,3 +82,20 @@ document.getElementById("day").onchange = show;
 document.getElementById("league").onchange = show;
 document.getElementById("search").oninput = show;
 start();
+
+function sortTime() {
+  const day = document.getElementById("day").value;
+  let list = matches.filter(m => (m.date || "bugün") === day);
+  list.sort((a,b) => (a.kickoff||"").localeCompare(b.kickoff||""));
+  window._currentList = list;
+  const box = document.getElementById("out");
+  document.getElementById("count").textContent = list.length + " maç (saat sırası)";
+  box.innerHTML = list.map((m, idx) => {
+    const cls = (m.pct||0) >= 65 ? "high" : (m.pct||0) >= 55 ? "mid" : "low";
+    return `<div class="card" onclick="openDetail(${idx})">
+      <b>${m.home} – ${m.away}</b><br>
+      <span class="small">${m.kickoff||""} · ${m.league||""}</span><br>
+      <span class="score ${cls}">${m.score||"-"}</span>
+    </div>`;
+  }).join("") || "<p>Maç yok</p>";
+}

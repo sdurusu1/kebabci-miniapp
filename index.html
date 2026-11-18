@@ -29,8 +29,11 @@ button { background:#0a84ff; }
   <button onclick="filter('all')">Tümü</button>
   <button onclick="filter('high')">≥65%</button>
   <button onclick="filter('fav')">Favoriler</button>
+  <button onclick="filter('top5')">Top 5</button>
+  <button onclick="sortTime()">Saat</button>
   <button onclick="sortToggle()">Sırala</button>
 </div>
+<div id="count" class="small" style="margin:6px 0"></div>
 <div id="out"></div>
 
 <div id="modal" class="modal" onclick="closeModal()">
