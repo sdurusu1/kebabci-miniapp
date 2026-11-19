@@ -7,16 +7,17 @@
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <style>
 body { margin:0; background:#000; color:#fff; font-family:-apple-system,system-ui; padding:12px; }
-h2 { margin:0 0 8px; }
-select, input, button { background:#1c1c1e; color:#fff; border:none; border-radius:8px; padding:8px; margin:3px; }
+h2 { margin:0 0 8px; font-size:18px; }
+select, input, button { background:#1c1c1e; color:#fff; border:none; border-radius:8px; padding:7px 9px; margin:3px; font-size:13px; }
 button { background:#0a84ff; }
-.card { background:#1c1c1e; border-radius:12px; padding:12px; margin:8px 0; cursor:pointer; }
-.score { font-weight:700; font-size:15px; }
+.card { background:#1c1c1e; border-radius:12px; padding:12px; margin:8px 0; }
+.score { font-weight:700; }
 .high { color:#30d158; } .mid { color:#ffd60a; } .low { color:#ff453a; }
 .small { font-size:12px; color:#8e8e93; }
-.modal { display:none; position:fixed; inset:0; background:rgba(0,0,0,.7); align-items:flex-end; }
+.modal { display:none; position:fixed; inset:0; background:rgba(0,0,0,.75); align-items:flex-end; z-index:10; }
 .modal.show { display:flex; }
-.panel { background:#1c1c1e; width:100%; border-radius:16px 16px 0 0; padding:16px; max-height:80vh; overflow:auto; }
+.panel { background:#1c1c1e; width:100%; border-radius:16px 16px 0 0; padding:16px; max-height:85vh; overflow:auto; }
+.row { display:flex; flex-wrap:wrap; gap:4px; margin-bottom:6px; }
 </style>
 </head>
 <body>
@@ -24,16 +25,19 @@ button { background:#0a84ff; }
 <select id="day"></select>
 <select id="league"><option value="">Tüm Ligler</option></select>
 <input id="search" placeholder="Takım ara...">
-<div>
+
+<div class="row">
   <button onclick="start()">Yenile</button>
   <button onclick="filter('all')">Tümü</button>
   <button onclick="filter('high')">≥65%</button>
   <button onclick="filter('fav')">Favoriler</button>
   <button onclick="filter('top5')">Top 5</button>
+  <button onclick="filter('home')">Ev Favori</button>
+  <button onclick="filter('away')">Dep. Favori</button>
   <button onclick="sortTime()">Saat</button>
-  <button onclick="sortToggle()">Sırala</button>
+  <button onclick="toggleView()">Görünüm</button>
 </div>
-<div id="count" class="small" style="margin:6px 0"></div>
+<div id="count" class="small"></div>
 <div id="out"></div>
 
 <div id="modal" class="modal" onclick="closeModal()">
