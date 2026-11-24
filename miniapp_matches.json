@@ -7,13 +7,14 @@
       "kickoff": "01:30",
       "league": "Brasileiro Serie A",
       "score": "1-1",
-      "pct": 49,
-      "xg_home": 1.49,
+      "pct": 52,
+      "xg_home": 1.57,
       "xg_away": 0.96,
       "form_home": "LWLWL",
       "form_away": "WLLDD",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -22,13 +23,14 @@
       "kickoff": "02:00",
       "league": "Brasileiro Serie A",
       "score": "1-1",
-      "pct": 51,
-      "xg_home": 1.54,
-      "xg_away": 0.96,
+      "pct": 50,
+      "xg_home": 1.48,
+      "xg_away": 0.92,
       "form_home": "LWLLW",
       "form_away": "LDLDW",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -43,7 +45,8 @@
       "form_home": "WLDDW",
       "form_away": "DLWWL",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -58,7 +61,8 @@
       "form_home": "WLLLL",
       "form_away": "LLDDW",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -73,7 +77,8 @@
       "form_home": "DLWLW",
       "form_away": "WWLLW",
       "iy": "1-0",
-      "iy_ms": "1/1"
+      "iy_ms": "1/1",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -82,13 +87,14 @@
       "kickoff": "20:45",
       "league": "UEFA Champions League",
       "score": "2-2",
-      "pct": 41,
-      "xg_home": 1.85,
-      "xg_away": 1.74,
+      "pct": 40,
+      "xg_home": 1.65,
+      "xg_away": 1.56,
       "form_home": "WWLL",
       "form_away": "LWWW",
       "iy": "1-1",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -103,7 +109,8 @@
       "form_home": "LWDLW",
       "form_away": "DWLLD",
       "iy": "1-0",
-      "iy_ms": "1/1"
+      "iy_ms": "1/1",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -118,7 +125,8 @@
       "form_home": "LLLWD",
       "form_away": "WDWLL",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -133,7 +141,8 @@
       "form_home": "WLWWD",
       "form_away": "WLDWW",
       "iy": "0-0",
-      "iy_ms": "0/2"
+      "iy_ms": "0/2",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -148,7 +157,8 @@
       "form_home": "WDLWW",
       "form_away": "DLLWL",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -163,7 +173,8 @@
       "form_home": "WWWWW",
       "form_away": "WWDLW",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -172,13 +183,14 @@
       "kickoff": "22:45",
       "league": "Championship",
       "score": "0-0",
-      "pct": 34,
-      "xg_home": 0.85,
-      "xg_away": 0.86,
+      "pct": 36,
+      "xg_home": 0.79,
+      "xg_away": 0.8,
       "form_home": "LWLLL",
       "form_away": "LLLLW",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -193,7 +205,8 @@
       "form_home": "DLWDW",
       "form_away": "DLDLL",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -208,7 +221,8 @@
       "form_home": "LWDLL",
       "form_away": "LLWLD",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -223,7 +237,8 @@
       "form_home": "WDWWW",
       "form_away": "LWLLD",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -238,7 +253,8 @@
       "form_home": "WWDWD",
       "form_away": "WLLLW",
       "iy": "1-0",
-      "iy_ms": "1/1"
+      "iy_ms": "1/1",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -253,7 +269,8 @@
       "form_home": "WDWW",
       "form_away": "WWLW",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -268,7 +285,8 @@
       "form_home": "WWLW",
       "form_away": "LWLL",
       "iy": "0-1",
-      "iy_ms": "2/1"
+      "iy_ms": "2/1",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -276,14 +294,15 @@
       "away": "Lens",
       "kickoff": "23:00",
       "league": "UEFA Champions League",
-      "score": "1-1",
-      "pct": 48,
-      "xg_home": 1.62,
-      "xg_away": 1.15,
+      "score": "2-1",
+      "pct": 49,
+      "xg_home": 1.76,
+      "xg_away": 1.25,
       "form_home": "LLWL",
       "form_away": "LLLW",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -298,7 +317,8 @@
       "form_home": "LLWL",
       "form_away": "WLLL",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -313,7 +333,8 @@
       "form_home": "WWWW",
       "form_away": "LWLD",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -328,7 +349,8 @@
       "form_home": "LLLLW",
       "form_away": "LWWW",
       "iy": "0-0",
-      "iy_ms": "0/2"
+      "iy_ms": "0/2",
+      "odds": {}
     },
     {
       "date": "2026-11-24",
@@ -343,7 +365,8 @@
       "form_home": "WWLW",
       "form_away": "LLLWW",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -358,7 +381,8 @@
       "form_home": "LLLLL",
       "form_away": "DLWDW",
       "iy": "0-1",
-      "iy_ms": "2/2"
+      "iy_ms": "2/2",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -373,37 +397,24 @@
       "form_home": "LWDLD",
       "form_away": "LLWDD",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
-      "home": "V-varen Nagasaki",
-      "away": "Kawasaki Frontale",
+      "home": "Avispa Fukuoka",
+      "away": "Yokohama F. Marinos",
       "kickoff": "13:00",
       "league": "J1 League",
-      "score": "2-2",
-      "pct": 42,
-      "xg_home": 2.06,
-      "xg_away": 1.91,
-      "form_home": "DDLLW",
-      "form_away": "WLLWW",
+      "score": "1-1",
+      "pct": 45,
+      "xg_home": 0.96,
+      "xg_away": 1.33,
+      "form_home": "LDLLL",
+      "form_away": "DDWDD",
       "iy": "0-0",
-      "iy_ms": "0/0"
-    },
-    {
-      "date": "2026-11-25",
-      "home": "FC Tokyo",
-      "away": "Sanfrecce Hiroshima",
-      "kickoff": "13:00",
-      "league": "J1 League",
-      "score": "2-2",
-      "pct": 53,
-      "xg_home": 2.86,
-      "xg_away": 2.11,
-      "form_home": "WWWWD",
-      "form_away": "DDWWL",
-      "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -418,7 +429,24 @@
       "form_home": "WWWDL",
       "form_away": "DLLDD",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-25",
+      "home": "FC Tokyo",
+      "away": "Sanfrecce Hiroshima",
+      "kickoff": "13:00",
+      "league": "J1 League",
+      "score": "2-2",
+      "pct": 53,
+      "xg_home": 2.86,
+      "xg_away": 2.11,
+      "form_home": "WWWWD",
+      "form_away": "DDWWL",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -433,7 +461,8 @@
       "form_home": "WLLLL",
       "form_away": "DWWWD",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -448,22 +477,24 @@
       "form_home": "WDLLW",
       "form_away": "DLLLL",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
-      "home": "Avispa Fukuoka",
-      "away": "Yokohama F. Marinos",
+      "home": "V-varen Nagasaki",
+      "away": "Kawasaki Frontale",
       "kickoff": "13:00",
       "league": "J1 League",
-      "score": "1-1",
-      "pct": 47,
-      "xg_home": 1.1,
-      "xg_away": 1.53,
-      "form_home": "LDLLL",
-      "form_away": "DDWDD",
+      "score": "2-2",
+      "pct": 42,
+      "xg_home": 1.84,
+      "xg_away": 1.7,
+      "form_home": "DDLLW",
+      "form_away": "WLLWW",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -478,7 +509,8 @@
       "form_home": "LDLWW",
       "form_away": "LWLDD",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -486,14 +518,15 @@
       "away": "Villarreal",
       "kickoff": "20:45",
       "league": "UEFA Champions League",
-      "score": "2-3",
-      "pct": 48,
-      "xg_home": 2.57,
-      "xg_away": 3.02,
+      "score": "2-2",
+      "pct": 50,
+      "xg_home": 2.03,
+      "xg_away": 2.55,
       "form_home": "LDLL",
       "form_away": "LLWL",
       "iy": "0-1",
-      "iy_ms": "2/2"
+      "iy_ms": "2/0",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -501,14 +534,15 @@
       "away": "Barcelona",
       "kickoff": "20:45",
       "league": "UEFA Champions League",
-      "score": "2-2",
-      "pct": 51,
-      "xg_home": 2.79,
-      "xg_away": 2.17,
+      "score": "3-1",
+      "pct": 58,
+      "xg_home": 3.02,
+      "xg_away": 1.99,
       "form_home": "LLWLW",
       "form_away": "WLWW",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -516,14 +550,15 @@
       "away": "Blackburn",
       "kickoff": "22:45",
       "league": "Championship",
-      "score": "1-1",
-      "pct": 37,
-      "xg_home": 1.19,
-      "xg_away": 1.14,
+      "score": "0-0",
+      "pct": 36,
+      "xg_home": 1.03,
+      "xg_away": 0.97,
       "form_home": "LDWLL",
       "form_away": "DWLLW",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -531,14 +566,15 @@
       "away": "Birmingham",
       "kickoff": "22:45",
       "league": "Championship",
-      "score": "2-2",
-      "pct": 40,
-      "xg_home": 1.96,
-      "xg_away": 1.92,
+      "score": "1-2",
+      "pct": 39,
+      "xg_home": 1.57,
+      "xg_away": 1.6,
       "form_home": "DLDDL",
       "form_away": "LWWWL",
-      "iy": "0-1",
-      "iy_ms": "2/0"
+      "iy": "0-0",
+      "iy_ms": "0/2",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -548,12 +584,13 @@
       "league": "Championship",
       "score": "2-2",
       "pct": 53,
-      "xg_home": 1.98,
-      "xg_away": 2.67,
+      "xg_home": 1.7,
+      "xg_away": 2.38,
       "form_home": "DLWLL",
       "form_away": "DWDWD",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -561,14 +598,15 @@
       "away": "Millwall",
       "kickoff": "23:00",
       "league": "Championship",
-      "score": "2-0",
-      "pct": 54,
-      "xg_home": 1.56,
-      "xg_away": 0.84,
+      "score": "0-0",
+      "pct": 51,
+      "xg_home": 1.26,
+      "xg_away": 0.68,
       "form_home": "WWWWD",
       "form_away": "LLLWL",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -576,14 +614,15 @@
       "away": "Bayern München",
       "kickoff": "23:00",
       "league": "UEFA Champions League",
-      "score": "2-5",
-      "pct": 67,
-      "xg_home": 2.18,
-      "xg_away": 5.06,
+      "score": "1-3",
+      "pct": 69,
+      "xg_home": 1.91,
+      "xg_away": 3.98,
       "form_home": "DLLL",
       "form_away": "WDDW",
       "iy": "1-0",
-      "iy_ms": "1/2"
+      "iy_ms": "1/2",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -592,13 +631,14 @@
       "kickoff": "23:00",
       "league": "UEFA Champions League",
       "score": "5-1",
-      "pct": 72,
-      "xg_home": 5.48,
-      "xg_away": 1.62,
+      "pct": 74,
+      "xg_home": 5.26,
+      "xg_away": 1.49,
       "form_home": "WWWW",
       "form_away": "LWLD",
       "iy": "2-0",
-      "iy_ms": "1/1"
+      "iy_ms": "1/1",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -607,13 +647,14 @@
       "kickoff": "23:00",
       "league": "UEFA Champions League",
       "score": "3-1",
-      "pct": 74,
-      "xg_home": 3.99,
-      "xg_away": 1.6,
+      "pct": 76,
+      "xg_home": 3.48,
+      "xg_away": 1.26,
       "form_home": "WLWW",
       "form_away": "WLLW",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -622,13 +663,14 @@
       "kickoff": "23:00",
       "league": "UEFA Champions League",
       "score": "2-2",
-      "pct": 44,
-      "xg_home": 1.9,
-      "xg_away": 2.11,
+      "pct": 40,
+      "xg_home": 1.66,
+      "xg_away": 1.72,
       "form_home": "WWLL",
       "form_away": "LDWW",
       "iy": "0-1",
-      "iy_ms": "2/0"
+      "iy_ms": "2/0",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -636,14 +678,15 @@
       "away": "Viking",
       "kickoff": "23:00",
       "league": "UEFA Champions League",
-      "score": "2-2",
-      "pct": 50,
-      "xg_home": 1.95,
-      "xg_away": 1.41,
+      "score": "2-1",
+      "pct": 48,
+      "xg_home": 1.7,
+      "xg_away": 1.23,
       "form_home": "LDWL",
       "form_away": "WLDLW",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -651,14 +694,15 @@
       "away": "Fenerbahçe",
       "kickoff": "23:00",
       "league": "UEFA Champions League",
-      "score": "2-0",
-      "pct": 54,
-      "xg_home": 1.49,
-      "xg_away": 0.77,
+      "score": "0-0",
+      "pct": 50,
+      "xg_home": 1.21,
+      "xg_away": 0.62,
       "form_home": "LLWD",
       "form_away": "WDLDW",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-25",
@@ -666,14 +710,79 @@
       "away": "Liverpool",
       "kickoff": "23:00",
       "league": "UEFA Champions League",
-      "score": "3-3",
-      "pct": 40,
-      "xg_home": 3.55,
-      "xg_away": 3.53,
+      "score": "3-2",
+      "pct": 49,
+      "xg_home": 3.34,
+      "xg_away": 2.78,
       "form_home": "WWWL",
       "form_away": "LWWW",
-      "iy": "1-1",
-      "iy_ms": "0/0"
+      "iy": "0-1",
+      "iy_ms": "2/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-26",
+      "home": "Toluca",
+      "away": "Atlas",
+      "kickoff": "00:00",
+      "league": "Liga MX",
+      "score": "3-2",
+      "pct": 59,
+      "xg_home": 3.91,
+      "xg_away": 2.5,
+      "form_home": "LWDDD",
+      "form_away": "DLWWL",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-26",
+      "home": "Monterrey",
+      "away": "Club America",
+      "kickoff": "00:00",
+      "league": "Liga MX",
+      "score": "2-2",
+      "pct": 43,
+      "xg_home": 2.18,
+      "xg_away": 2.03,
+      "form_home": "WWLDL",
+      "form_away": "LDDDL",
+      "iy": "1-0",
+      "iy_ms": "1/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-26",
+      "home": "Leon",
+      "away": "Cruz Azul",
+      "kickoff": "00:00",
+      "league": "Liga MX",
+      "score": "2-2",
+      "pct": 47,
+      "xg_home": 2.52,
+      "xg_away": 2.91,
+      "form_home": "WDLDW",
+      "form_away": "LWWWW",
+      "iy": "0-1",
+      "iy_ms": "2/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-26",
+      "home": "CF Pachuca",
+      "away": "Guadalajara Chivas",
+      "kickoff": "00:00",
+      "league": "Liga MX",
+      "score": "2-2",
+      "pct": 47,
+      "xg_home": 1.63,
+      "xg_away": 2.03,
+      "form_home": "WWWWL",
+      "form_away": "WDWWW",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -681,14 +790,15 @@
       "away": "Corinthians",
       "kickoff": "02:00",
       "league": "Brasileiro Serie A",
-      "score": "1-1",
-      "pct": 44,
-      "xg_home": 1.29,
-      "xg_away": 0.97,
+      "score": "0-0",
+      "pct": 43,
+      "xg_home": 1.14,
+      "xg_away": 0.83,
       "form_home": "DLLLW",
       "form_away": "WDWLD",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -703,7 +813,8 @@
       "form_home": "WWWWD",
       "form_away": "DWLDL",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -718,7 +829,8 @@
       "form_home": "DLD",
       "form_away": "WDW",
       "iy": "0-0",
-      "iy_ms": "0/2"
+      "iy_ms": "0/2",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -733,7 +845,8 @@
       "form_home": "WDWWD",
       "form_away": "WWD",
       "iy": "1-1",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -748,7 +861,8 @@
       "form_home": "WWLWW",
       "form_away": "WLL",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -763,7 +877,8 @@
       "form_home": "LLDDD",
       "form_away": "WWWWW",
       "iy": "0-1",
-      "iy_ms": "2/2"
+      "iy_ms": "2/2",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -778,7 +893,8 @@
       "form_home": "DWWWD",
       "form_away": "DDL",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -787,13 +903,14 @@
       "kickoff": "20:45",
       "league": "UEFA Conference League",
       "score": "1-3",
-      "pct": 55,
-      "xg_home": 1.59,
-      "xg_away": 2.4,
+      "pct": 54,
+      "xg_home": 1.42,
+      "xg_away": 2.14,
       "form_home": "DDLWL",
       "form_away": "WWWDW",
       "iy": "0-1",
-      "iy_ms": "2/2"
+      "iy_ms": "2/2",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -802,13 +919,14 @@
       "kickoff": "20:45",
       "league": "UEFA Conference League",
       "score": "0-0",
-      "pct": 45,
-      "xg_home": 0.7,
-      "xg_away": 1.11,
+      "pct": 46,
+      "xg_home": 0.77,
+      "xg_away": 1.2,
       "form_home": "LDD",
       "form_away": "WLLWL",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -817,13 +935,14 @@
       "kickoff": "20:45",
       "league": "UEFA Conference League",
       "score": "2-2",
-      "pct": 42,
-      "xg_home": 1.78,
-      "xg_away": 1.92,
+      "pct": 41,
+      "xg_home": 1.65,
+      "xg_away": 1.78,
       "form_home": "LDLWD",
       "form_away": "LLDWW",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -838,7 +957,8 @@
       "form_home": "LDL",
       "form_away": "LLDLW",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -853,7 +973,8 @@
       "form_home": "LLL",
       "form_away": "DDDWD",
       "iy": "0-0",
-      "iy_ms": "0/2"
+      "iy_ms": "0/2",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -868,7 +989,8 @@
       "form_home": "WLLL",
       "form_away": "WWDL",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -883,7 +1005,8 @@
       "form_home": "LWLL",
       "form_away": "WWWW",
       "iy": "0-1",
-      "iy_ms": "2/2"
+      "iy_ms": "2/2",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -893,12 +1016,13 @@
       "league": "UEFA Europa League",
       "score": "4-0",
       "pct": 87,
-      "xg_home": 3.68,
-      "xg_away": 0.62,
+      "xg_home": 3.39,
+      "xg_away": 0.57,
       "form_home": "LDWWL",
       "form_away": "LLLD",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -913,7 +1037,8 @@
       "form_home": "DWWW",
       "form_away": "LLWL",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -928,7 +1053,8 @@
       "form_home": "WLLLW",
       "form_away": "WWWWW",
       "iy": "0-1",
-      "iy_ms": "2/2"
+      "iy_ms": "2/2",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -936,14 +1062,15 @@
       "away": "Ararat-Armenia",
       "kickoff": "20:45",
       "league": "UEFA Europa League",
-      "score": "2-1",
-      "pct": 50,
-      "xg_home": 1.79,
-      "xg_away": 1.24,
+      "score": "3-1",
+      "pct": 54,
+      "xg_home": 2.13,
+      "xg_away": 1.39,
       "form_home": "LDLWW",
       "form_away": "LLLLW",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -953,12 +1080,13 @@
       "league": "UEFA Europa League",
       "score": "1-3",
       "pct": 76,
-      "xg_home": 1.22,
-      "xg_away": 3.35,
+      "xg_home": 1.33,
+      "xg_away": 3.64,
       "form_home": "WLWD",
       "form_away": "LWWW",
       "iy": "0-1",
-      "iy_ms": "2/2"
+      "iy_ms": "2/2",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -973,7 +1101,8 @@
       "form_home": "WWDW",
       "form_away": "LDLLD",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -981,14 +1110,15 @@
       "away": "Twente",
       "kickoff": "23:00",
       "league": "UEFA Conference League",
-      "score": "3-2",
+      "score": "3-3",
       "pct": 45,
-      "xg_home": 3.23,
-      "xg_away": 2.91,
+      "xg_home": 3.51,
+      "xg_away": 3.16,
       "form_home": "WLWWW",
       "form_away": "WWWWL",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1003,7 +1133,8 @@
       "form_home": "DWLDW",
       "form_away": "DLLWD",
       "iy": "1-0",
-      "iy_ms": "1/1"
+      "iy_ms": "1/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1018,7 +1149,8 @@
       "form_home": "LDDWW",
       "form_away": "WWWWD",
       "iy": "1-0",
-      "iy_ms": "1/1"
+      "iy_ms": "1/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1033,7 +1165,8 @@
       "form_home": "LWWWD",
       "form_away": "DWW",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1048,7 +1181,8 @@
       "form_home": "DLWWD",
       "form_away": "WDL",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1063,7 +1197,8 @@
       "form_home": "LDL",
       "form_away": "LWW",
       "iy": "0-1",
-      "iy_ms": "2/2"
+      "iy_ms": "2/2",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1078,7 +1213,8 @@
       "form_home": "LLLDD",
       "form_away": "WDWWD",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1087,13 +1223,14 @@
       "kickoff": "23:00",
       "league": "UEFA Conference League",
       "score": "2-0",
-      "pct": 72,
-      "xg_home": 1.76,
-      "xg_away": 0.38,
+      "pct": 76,
+      "xg_home": 2.06,
+      "xg_away": 0.41,
       "form_home": "LWLWW",
       "form_away": "DLWWD",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1108,7 +1245,8 @@
       "form_home": "DDLW",
       "form_away": "DWDL",
       "iy": "0-1",
-      "iy_ms": "2/0"
+      "iy_ms": "2/0",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1117,13 +1255,14 @@
       "kickoff": "23:00",
       "league": "UEFA Europa League",
       "score": "3-1",
-      "pct": 64,
-      "xg_home": 2.59,
-      "xg_away": 1.35,
+      "pct": 65,
+      "xg_home": 2.82,
+      "xg_away": 1.46,
       "form_home": "DLWW",
       "form_away": "LLDLW",
       "iy": "1-0",
-      "iy_ms": "1/1"
+      "iy_ms": "1/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1138,7 +1277,8 @@
       "form_home": "DWLL",
       "form_away": "LWLD",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1153,7 +1293,8 @@
       "form_home": "WWDL",
       "form_away": "DDWD",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1168,7 +1309,8 @@
       "form_home": "WDWW",
       "form_away": "LLWWW",
       "iy": "1-0",
-      "iy_ms": "1/1"
+      "iy_ms": "1/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1183,7 +1325,8 @@
       "form_home": "LLDW",
       "form_away": "LWWL",
       "iy": "0-0",
-      "iy_ms": "0/2"
+      "iy_ms": "0/2",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1198,7 +1341,8 @@
       "form_home": "WWWWW",
       "form_away": "WDLL",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1213,7 +1357,8 @@
       "form_home": "LDWW",
       "form_away": "LLWLW",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1228,7 +1373,8 @@
       "form_home": "WLLWW",
       "form_away": "WWLLW",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-26",
@@ -1243,7 +1389,8 @@
       "form_home": "WLLW",
       "form_away": "WLLL",
       "iy": "1-0",
-      "iy_ms": "1/1"
+      "iy_ms": "1/1",
+      "odds": {}
     },
     {
       "date": "2026-11-27",
@@ -1252,13 +1399,14 @@
       "kickoff": "02:00",
       "league": "Brasileiro Serie A",
       "score": "3-1",
-      "pct": 64,
-      "xg_home": 2.19,
+      "pct": 65,
+      "xg_home": 2.24,
       "xg_away": 1.02,
       "form_home": "LDLDW",
       "form_away": "LWLWL",
       "iy": "1-0",
-      "iy_ms": "1/1"
+      "iy_ms": "1/1",
+      "odds": {}
     },
     {
       "date": "2026-11-27",
@@ -1273,7 +1421,8 @@
       "form_home": "WWWLW",
       "form_away": "WDDWD",
       "iy": "0-1",
-      "iy_ms": "2/0"
+      "iy_ms": "2/0",
+      "odds": {}
     },
     {
       "date": "2026-11-27",
@@ -1288,7 +1437,8 @@
       "form_home": "LLLLL",
       "form_away": "LLLWL",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-27",
@@ -1303,7 +1453,8 @@
       "form_home": "WWDLL",
       "form_away": "WWDWW",
       "iy": "0-0",
-      "iy_ms": "0/2"
+      "iy_ms": "0/2",
+      "odds": {}
     },
     {
       "date": "2026-11-27",
@@ -1312,13 +1463,14 @@
       "kickoff": "21:00",
       "league": "Superliga",
       "score": "2-2",
-      "pct": 45,
-      "xg_home": 2.01,
-      "xg_away": 2.31,
+      "pct": 44,
+      "xg_home": 1.95,
+      "xg_away": 2.19,
       "form_home": "LDLLW",
-      "form_away": "LWWLW",
+      "form_away": "LLWWL",
       "iy": "0-1",
-      "iy_ms": "2/0"
+      "iy_ms": "2/0",
+      "odds": {}
     },
     {
       "date": "2026-11-27",
@@ -1333,7 +1485,8 @@
       "form_home": "LLLDL",
       "form_away": "WLDWL",
       "iy": "0-0",
-      "iy_ms": "0/2"
+      "iy_ms": "0/2",
+      "odds": {}
     },
     {
       "date": "2026-11-27",
@@ -1348,7 +1501,8 @@
       "form_home": "LLLDL",
       "form_away": "LDLLL",
       "iy": "1-0",
-      "iy_ms": "1/1"
+      "iy_ms": "1/1",
+      "odds": {}
     },
     {
       "date": "2026-11-27",
@@ -1363,7 +1517,8 @@
       "form_home": "WLWWD",
       "form_away": "LLDWL",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-27",
@@ -1378,7 +1533,8 @@
       "form_home": "LWDDD",
       "form_away": "LLDLW",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-27",
@@ -1393,7 +1549,8 @@
       "form_home": "WWWLD",
       "form_away": "WWWLW",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-27",
@@ -1408,7 +1565,8 @@
       "form_home": "LWWDD",
       "form_away": "LLLDL",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-27",
@@ -1423,7 +1581,8 @@
       "form_home": "LWLLL",
       "form_away": "DWWWW",
       "iy": "0-0",
-      "iy_ms": "0/2"
+      "iy_ms": "0/2",
+      "odds": {}
     },
     {
       "date": "2026-11-27",
@@ -1438,7 +1597,8 @@
       "form_home": "WLDWW",
       "form_away": "WDLWW",
       "iy": "0-0",
-      "iy_ms": "0/1"
+      "iy_ms": "0/1",
+      "odds": {}
     },
     {
       "date": "2026-11-27",
@@ -1453,7 +1613,8 @@
       "form_home": "DLLWD",
       "form_away": "WWLWL",
       "iy": "1-0",
-      "iy_ms": "1/0"
+      "iy_ms": "1/0",
+      "odds": {}
     },
     {
       "date": "2026-11-27",
@@ -1468,7 +1629,8 @@
       "form_home": "LWLDL",
       "form_away": "LLWLW",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
     },
     {
       "date": "2026-11-27",
@@ -1483,8 +1645,1177 @@
       "form_home": "LLLDL",
       "form_away": "WLWLL",
       "iy": "0-0",
-      "iy_ms": "0/0"
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Fluminense",
+      "away": "Cruzeiro",
+      "kickoff": "02:00",
+      "league": "Brasileiro Serie A",
+      "score": "2-1",
+      "pct": 48,
+      "xg_home": 1.82,
+      "xg_away": 1.36,
+      "form_home": "WWWWL",
+      "form_away": "WWWWW",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Columbus Crew",
+      "away": "Inter Miami",
+      "kickoff": "04:00",
+      "league": "MLS",
+      "score": "2-2",
+      "pct": 47,
+      "xg_home": 2.72,
+      "xg_away": 2.3,
+      "form_home": "WWWWW",
+      "form_away": "LDWDL",
+      "iy": "1-1",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Real Salt Lake",
+      "away": "Vancouver Whitecaps",
+      "kickoff": "06:00",
+      "league": "MLS",
+      "score": "2-2",
+      "pct": 47,
+      "xg_home": 1.78,
+      "xg_away": 2.18,
+      "form_home": "LDWLW",
+      "form_away": "WWWWL",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Kyoto Sanga",
+      "away": "Cerezo Osaka",
+      "kickoff": "08:00",
+      "league": "J1 League",
+      "score": "2-2",
+      "pct": 53,
+      "xg_home": 2.73,
+      "xg_away": 1.99,
+      "form_home": "WWWDD",
+      "form_away": "LWLDD",
+      "iy": "1-0",
+      "iy_ms": "1/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Shimizu S-pulse",
+      "away": "Urawa",
+      "kickoff": "08:00",
+      "league": "J1 League",
+      "score": "1-1",
+      "pct": 44,
+      "xg_home": 1.15,
+      "xg_away": 1.44,
+      "form_home": "DLLLL",
+      "form_away": "LDLWW",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "FC Anyang",
+      "away": "Jeju United FC",
+      "kickoff": "08:00",
+      "league": "K League 1",
+      "score": "1-2",
+      "pct": 40,
+      "xg_home": 1.37,
+      "xg_away": 1.47,
+      "form_home": "DLWDD",
+      "form_away": "WDDLL",
+      "iy": "0-0",
+      "iy_ms": "0/2",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "FC Seoul",
+      "away": "Daejeon Citizen",
+      "kickoff": "08:00",
+      "league": "K League 1",
+      "score": "2-2",
+      "pct": 40,
+      "xg_home": 1.68,
+      "xg_away": 1.73,
+      "form_home": "WLLDD",
+      "form_away": "WWDWW",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Kashima",
+      "away": "Fagiano Okayama",
+      "kickoff": "09:00",
+      "league": "J1 League",
+      "score": "3-1",
+      "pct": 53,
+      "xg_home": 1.96,
+      "xg_away": 1.3,
+      "form_home": "DLWLD",
+      "form_away": "WDLLW",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Vissel Kobe",
+      "away": "JEF United Chiba",
+      "kickoff": "09:00",
+      "league": "J1 League",
+      "score": "3-1",
+      "pct": 63,
+      "xg_home": 3.03,
+      "xg_away": 1.74,
+      "form_home": "LDWDL",
+      "form_away": "WWWDL",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Kashiwa Reysol",
+      "away": "Sanfrecce Hiroshima",
+      "kickoff": "10:00",
+      "league": "J1 League",
+      "score": "2-1",
+      "pct": 39,
+      "xg_home": 1.6,
+      "xg_away": 1.59,
+      "form_home": "LWWWD",
+      "form_away": "DDWWL",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Bucheon FC 1995",
+      "away": "Gimcheon Sangmu FC",
+      "kickoff": "10:30",
+      "league": "K League 1",
+      "score": "1-1",
+      "pct": 51,
+      "xg_home": 0.99,
+      "xg_away": 1.57,
+      "form_home": "LDLLL",
+      "form_away": "LWDLD",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Pohang Steelers",
+      "away": "Gwangju FC",
+      "kickoff": "10:30",
+      "league": "K League 1",
+      "score": "0-0",
+      "pct": 45,
+      "xg_home": 1.15,
+      "xg_away": 0.78,
+      "form_home": "DDDDD",
+      "form_away": "WDDWL",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Varbergs BoIS FC",
+      "away": "Ostersunds FK",
+      "kickoff": "15:00",
+      "league": "Allsvenskan",
+      "score": "3-1",
+      "pct": 66,
+      "xg_home": 2.6,
+      "xg_away": 1.26,
+      "form_home": "W",
+      "form_away": "L",
+      "iy": "1-0",
+      "iy_ms": "1/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Preston",
+      "away": "Norwich",
+      "kickoff": "15:30",
+      "league": "Championship",
+      "score": "1-2",
+      "pct": 61,
+      "xg_home": 1.05,
+      "xg_away": 2.1,
+      "form_home": "DWLLD",
+      "form_away": "WWWWW",
+      "iy": "0-0",
+      "iy_ms": "0/2",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Blackburn",
+      "away": "Charlton",
+      "kickoff": "15:30",
+      "league": "Championship",
+      "score": "2-1",
+      "pct": 56,
+      "xg_home": 1.89,
+      "xg_away": 1.08,
+      "form_home": "DWLLW",
+      "form_away": "LWLLL",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Lincoln",
+      "away": "Wolves",
+      "kickoff": "15:30",
+      "league": "Championship",
+      "score": "1-3",
+      "pct": 65,
+      "xg_home": 1.2,
+      "xg_away": 2.49,
+      "form_home": "LLLLW",
+      "form_away": "WDWWW",
+      "iy": "0-0",
+      "iy_ms": "0/2",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Real Betis",
+      "away": "Rayo Vallecano",
+      "kickoff": "16:00",
+      "league": "La Liga",
+      "score": "3-1",
+      "pct": 62,
+      "xg_home": 2.47,
+      "xg_away": 1.33,
+      "form_home": "DWWDL",
+      "form_away": "LLWLD",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Samsunspor",
+      "away": "Gençlerbirliği S.K.",
+      "kickoff": "16:00",
+      "league": "Super Lig",
+      "score": "2-2",
+      "pct": 49,
+      "xg_home": 1.9,
+      "xg_away": 1.41,
+      "form_home": "LWLLL",
+      "form_away": "WLWLL",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Widzew Łódź",
+      "away": "Zaglebie Lubin",
+      "kickoff": "16:45",
+      "league": "Ekstraklasa",
+      "score": "2-2",
+      "pct": 42,
+      "xg_home": 2.06,
+      "xg_away": 2.17,
+      "form_home": "LWLDD",
+      "form_away": "WDWDW",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Frosinone",
+      "away": "Parma",
+      "kickoff": "17:00",
+      "league": "Serie A",
+      "score": "3-1",
+      "pct": 68,
+      "xg_home": 3.79,
+      "xg_away": 1.89,
+      "form_home": "LLWWD",
+      "form_away": "LLWDL",
+      "iy": "1-0",
+      "iy_ms": "1/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "FSV Mainz 05",
+      "away": "Union Berlin",
+      "kickoff": "17:30",
+      "league": "Bundesliga",
+      "score": "2-2",
+      "pct": 51,
+      "xg_home": 2.74,
+      "xg_away": 2.12,
+      "form_home": "LLLLW",
+      "form_away": "LLDDD",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Hamburger SV",
+      "away": "Bayern München",
+      "kickoff": "17:30",
+      "league": "Bundesliga",
+      "score": "1-4",
+      "pct": 71,
+      "xg_home": 1.81,
+      "xg_away": 4.09,
+      "form_home": "LWLLW",
+      "form_away": "DWDWW",
+      "iy": "0-1",
+      "iy_ms": "2/2",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "SC Paderborn 07",
+      "away": "FC Schalke 04",
+      "kickoff": "17:30",
+      "league": "Bundesliga",
+      "score": "2-2",
+      "pct": 40,
+      "xg_home": 2.28,
+      "xg_away": 2.29,
+      "form_home": "LDDWD",
+      "form_away": "DLLDL",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "1. FC Köln",
+      "away": "SV Elversberg",
+      "kickoff": "17:30",
+      "league": "Bundesliga",
+      "score": "2-1",
+      "pct": 50,
+      "xg_home": 1.79,
+      "xg_away": 1.24,
+      "form_home": "DLDDL",
+      "form_away": "LLWLW",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "West Ham",
+      "away": "Stoke City",
+      "kickoff": "18:00",
+      "league": "Championship",
+      "score": "2-2",
+      "pct": 43,
+      "xg_home": 1.77,
+      "xg_away": 1.54,
+      "form_home": "DLDLL",
+      "form_away": "WWWWD",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Birmingham",
+      "away": "Bolton",
+      "kickoff": "18:00",
+      "league": "Championship",
+      "score": "2-1",
+      "pct": 59,
+      "xg_home": 1.98,
+      "xg_away": 1.02,
+      "form_home": "LWWWL",
+      "form_away": "DLWLL",
+      "iy": "1-0",
+      "iy_ms": "1/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Millwall",
+      "away": "Burnley",
+      "kickoff": "18:00",
+      "league": "Championship",
+      "score": "2-2",
+      "pct": 40,
+      "xg_home": 1.65,
+      "xg_away": 1.58,
+      "form_home": "LLLWL",
+      "form_away": "DLDDL",
+      "iy": "0-1",
+      "iy_ms": "2/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "West Brom",
+      "away": "Bristol City",
+      "kickoff": "18:00",
+      "league": "Championship",
+      "score": "2-1",
+      "pct": 53,
+      "xg_home": 1.83,
+      "xg_away": 1.16,
+      "form_home": "DWDWD",
+      "form_away": "LLLWD",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Derby",
+      "away": "Watford",
+      "kickoff": "18:00",
+      "league": "Championship",
+      "score": "1-1",
+      "pct": 41,
+      "xg_home": 1.17,
+      "xg_away": 1.35,
+      "form_home": "LWLLD",
+      "form_away": "LDWLL",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "QPR",
+      "away": "Sheffield Utd",
+      "kickoff": "18:00",
+      "league": "Championship",
+      "score": "2-2",
+      "pct": 52,
+      "xg_home": 2.15,
+      "xg_away": 1.51,
+      "form_home": "WWDLW",
+      "form_away": "WLWWD",
+      "iy": "1-0",
+      "iy_ms": "1/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Wrexham",
+      "away": "Portsmouth",
+      "kickoff": "18:00",
+      "league": "Championship",
+      "score": "1-1",
+      "pct": 42,
+      "xg_home": 1.23,
+      "xg_away": 0.97,
+      "form_home": "WDWLL",
+      "form_away": "DLWDW",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Bodo/Glimt",
+      "away": "KFUM Oslo",
+      "kickoff": "18:00",
+      "league": "Eliteserien",
+      "score": "3-1",
+      "pct": 79,
+      "xg_home": 3.47,
+      "xg_away": 1.1,
+      "form_home": "WWWLW",
+      "form_away": "LLDDD",
+      "iy": "1-0",
+      "iy_ms": "1/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Manchester United",
+      "away": "Brentford",
+      "kickoff": "18:00",
+      "league": "Premier League",
+      "score": "2-2",
+      "pct": 43,
+      "xg_home": 2.38,
+      "xg_away": 2.53,
+      "form_home": "LDLLD",
+      "form_away": "LWDLD",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Leeds",
+      "away": "Coventry",
+      "kickoff": "18:00",
+      "league": "Premier League",
+      "score": "2-1",
+      "pct": 68,
+      "xg_home": 2.09,
+      "xg_away": 0.76,
+      "form_home": "WWLDD",
+      "form_away": "WLWLL",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "ST Mirren",
+      "away": "Kilmarnock",
+      "kickoff": "18:00",
+      "league": "Premiership",
+      "score": "2-2",
+      "pct": 39,
+      "xg_home": 1.62,
+      "xg_away": 1.66,
+      "form_home": "LLLDW",
+      "form_away": "LLDLL",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Aberdeen",
+      "away": "Dundee",
+      "kickoff": "18:00",
+      "league": "Premiership",
+      "score": "2-2",
+      "pct": 39,
+      "xg_home": 1.87,
+      "xg_away": 1.86,
+      "form_home": "WLLLW",
+      "form_away": "LLWLD",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Rangers",
+      "away": "Falkirk",
+      "kickoff": "18:00",
+      "league": "Premiership",
+      "score": "3-1",
+      "pct": 63,
+      "xg_home": 3.34,
+      "xg_away": 1.96,
+      "form_home": "WWDWD",
+      "form_away": "WWWWW",
+      "iy": "1-1",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Dundee Utd",
+      "away": "ST Johnstone",
+      "kickoff": "18:00",
+      "league": "Premiership",
+      "score": "2-1",
+      "pct": 51,
+      "xg_home": 1.88,
+      "xg_away": 1.29,
+      "form_home": "WDDWD",
+      "form_away": "LWDDL",
+      "iy": "1-0",
+      "iy_ms": "1/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "KVC Westerlo",
+      "away": "RAAL La Louvière",
+      "kickoff": "18:00",
+      "league": "Pro League",
+      "score": "3-2",
+      "pct": 59,
+      "xg_home": 3.19,
+      "xg_away": 2.04,
+      "form_home": "LLLDW",
+      "form_away": "LLLWL",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Malaga",
+      "away": "Athletic Club",
+      "kickoff": "18:15",
+      "league": "La Liga",
+      "score": "1-1",
+      "pct": 48,
+      "xg_home": 0.99,
+      "xg_away": 1.46,
+      "form_home": "LLLDL",
+      "form_away": "LDWWL",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Excelsior",
+      "away": "Telstar",
+      "kickoff": "18:30",
+      "league": "Eredivisie",
+      "score": "2-3",
+      "pct": 63,
+      "xg_home": 2.06,
+      "xg_away": 3.52,
+      "form_home": "WLLLL",
+      "form_away": "LDWLL",
+      "iy": "1-1",
+      "iy_ms": "0/2",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Moreirense",
+      "away": "Santa Clara",
+      "kickoff": "18:30",
+      "league": "Primeira Liga",
+      "score": "1-1",
+      "pct": 47,
+      "xg_home": 1.06,
+      "xg_away": 1.5,
+      "form_home": "LWWLD",
+      "form_away": "LWLWD",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Arouca",
+      "away": "Rio Ave",
+      "kickoff": "18:30",
+      "league": "Primeira Liga",
+      "score": "3-1",
+      "pct": 67,
+      "xg_home": 2.28,
+      "xg_away": 0.96,
+      "form_home": "LWWWD",
+      "form_away": "LLLWL",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Austria Vienna",
+      "away": "Wolfsberger AC",
+      "kickoff": "19:00",
+      "league": "Bundesliga Austria",
+      "score": "1-1",
+      "pct": 43,
+      "xg_home": 1.23,
+      "xg_away": 0.94,
+      "form_home": "WDLLL",
+      "form_away": "LLDLL",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Gaziantep FK",
+      "away": "Amed",
+      "kickoff": "19:00",
+      "league": "Super Lig",
+      "score": "1-3",
+      "pct": 61,
+      "xg_home": 1.23,
+      "xg_away": 2.3,
+      "form_home": "LLLLL",
+      "form_away": "LLWWW",
+      "iy": "0-0",
+      "iy_ms": "0/2",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Angers",
+      "away": "Lens",
+      "kickoff": "19:15",
+      "league": "Ligue 1",
+      "score": "0-2",
+      "pct": 58,
+      "xg_home": 0.93,
+      "xg_away": 1.8,
+      "form_home": "LLLDL",
+      "form_away": "DLLWW",
+      "iy": "0-0",
+      "iy_ms": "0/2",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Slask Wroclaw",
+      "away": "GKS Katowice",
+      "kickoff": "19:30",
+      "league": "Ekstraklasa",
+      "score": "1-1",
+      "pct": 43,
+      "xg_home": 1.35,
+      "xg_away": 1.07,
+      "form_home": "WDLWL",
+      "form_away": "LLWLL",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Rosenborg",
+      "away": "Molde",
+      "kickoff": "20:00",
+      "league": "Eliteserien",
+      "score": "3-2",
+      "pct": 55,
+      "xg_home": 3.29,
+      "xg_away": 2.35,
+      "form_home": "DWWWW",
+      "form_away": "LDLWW",
+      "iy": "1-1",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Torino",
+      "away": "Lazio",
+      "kickoff": "20:00",
+      "league": "Serie A",
+      "score": "1-3",
+      "pct": 70,
+      "xg_home": 1.49,
+      "xg_away": 3.28,
+      "form_home": "LDLLW",
+      "form_away": "WDWWW",
+      "iy": "0-1",
+      "iy_ms": "2/2",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "FC Vaduz",
+      "away": "FC Zurich",
+      "kickoff": "20:00",
+      "league": "Super League",
+      "score": "2-2",
+      "pct": 42,
+      "xg_home": 2.73,
+      "xg_away": 2.61,
+      "form_home": "DLDLW",
+      "form_away": "DDWWW",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Grasshoppers",
+      "away": "FC Basel 1893",
+      "kickoff": "20:00",
+      "league": "Super League",
+      "score": "2-2",
+      "pct": 50,
+      "xg_home": 1.48,
+      "xg_away": 2.02,
+      "form_home": "LDDDL",
+      "form_away": "LDLDL",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Cercle Brugge",
+      "away": "KV Mechelen",
+      "kickoff": "20:15",
+      "league": "Pro League",
+      "score": "2-2",
+      "pct": 39,
+      "xg_home": 1.73,
+      "xg_away": 1.71,
+      "form_home": "WWWLL",
+      "form_away": "LLWWW",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "VfB Stuttgart",
+      "away": "Eintracht Frankfurt",
+      "kickoff": "20:30",
+      "league": "Bundesliga",
+      "score": "3-2",
+      "pct": 54,
+      "xg_home": 3.56,
+      "xg_away": 2.61,
+      "form_home": "DWWLL",
+      "form_away": "WDWLW",
+      "iy": "1-1",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Elche",
+      "away": "Atletico Madrid",
+      "kickoff": "20:30",
+      "league": "La Liga",
+      "score": "1-3",
+      "pct": 77,
+      "xg_home": 0.86,
+      "xg_away": 2.78,
+      "form_home": "LLWDD",
+      "form_away": "WLWWW",
+      "iy": "0-0",
+      "iy_ms": "0/2",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Charlotte",
+      "away": "Chicago Fire",
+      "kickoff": "20:30",
+      "league": "MLS",
+      "score": "3-2",
+      "pct": 53,
+      "xg_home": 3.21,
+      "xg_away": 2.44,
+      "form_home": "WDWWL",
+      "form_away": "LLWDW",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Ipswich",
+      "away": "Aston Villa",
+      "kickoff": "20:30",
+      "league": "Premier League",
+      "score": "2-2",
+      "pct": 49,
+      "xg_home": 1.55,
+      "xg_away": 2.05,
+      "form_home": "LLDDL",
+      "form_away": "DDDWW",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "PSV Eindhoven",
+      "away": "GO Ahead Eagles",
+      "kickoff": "20:45",
+      "league": "Eredivisie",
+      "score": "5-1",
+      "pct": 70,
+      "xg_home": 5.49,
+      "xg_away": 1.84,
+      "form_home": "WWWDL",
+      "form_away": "LWLWL",
+      "iy": "2-0",
+      "iy_ms": "1/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Motherwell",
+      "away": "Hibernian",
+      "kickoff": "20:45",
+      "league": "Premiership",
+      "score": "1-1",
+      "pct": 51,
+      "xg_home": 1.1,
+      "xg_away": 1.69,
+      "form_home": "LDWDL",
+      "form_away": "LWDLL",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Academico Viseu",
+      "away": "Alverca",
+      "kickoff": "21:00",
+      "league": "Primeira Liga",
+      "score": "2-2",
+      "pct": 54,
+      "xg_home": 2.66,
+      "xg_away": 1.89,
+      "form_home": "LWWWW",
+      "form_away": "DLLWW",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Austria Lustenau",
+      "away": "Rapid Vienna",
+      "kickoff": "21:30",
+      "league": "Bundesliga Austria",
+      "score": "1-3",
+      "pct": 72,
+      "xg_home": 1.71,
+      "xg_away": 3.87,
+      "form_home": "WWLLL",
+      "form_away": "WWWWW",
+      "iy": "0-0",
+      "iy_ms": "0/2",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Wisla Krakow",
+      "away": "Motor Lublin",
+      "kickoff": "22:15",
+      "league": "Ekstraklasa",
+      "score": "2-2",
+      "pct": 54,
+      "xg_home": 2.78,
+      "xg_away": 1.97,
+      "form_home": "DWLWD",
+      "form_away": "LWWDW",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Houston Dynamo",
+      "away": "San Jose Earthquakes",
+      "kickoff": "22:30",
+      "league": "MLS",
+      "score": "1-1",
+      "pct": 37,
+      "xg_home": 1.28,
+      "xg_away": 1.26,
+      "form_home": "LLWDD",
+      "form_away": "LWDLD",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Servette FC",
+      "away": "Lausanne",
+      "kickoff": "22:30",
+      "league": "Super League",
+      "score": "3-1",
+      "pct": 58,
+      "xg_home": 2.09,
+      "xg_away": 1.18,
+      "form_home": "LDLWW",
+      "form_away": "DDLLL",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Nice",
+      "away": "Estac Troyes",
+      "kickoff": "22:45",
+      "league": "Ligue 1",
+      "score": "2-1",
+      "pct": 59,
+      "xg_home": 1.96,
+      "xg_away": 1.02,
+      "form_home": "LWWWL",
+      "form_away": "WLWDL",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Paris Saint Germain",
+      "away": "Lorient",
+      "kickoff": "22:45",
+      "league": "Ligue 1",
+      "score": "2-1",
+      "pct": 49,
+      "xg_home": 1.66,
+      "xg_away": 1.17,
+      "form_home": "WWWWW",
+      "form_away": "DWLDW",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Le Havre",
+      "away": "Strasbourg",
+      "kickoff": "22:45",
+      "league": "Ligue 1",
+      "score": "2-2",
+      "pct": 54,
+      "xg_home": 1.74,
+      "xg_away": 2.51,
+      "form_home": "LLLLL",
+      "form_away": "LLWLL",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Le Mans",
+      "away": "Lille",
+      "kickoff": "22:45",
+      "league": "Ligue 1",
+      "score": "1-1",
+      "pct": 45,
+      "xg_home": 1.18,
+      "xg_away": 1.5,
+      "form_home": "WDLDL",
+      "form_away": "LWWDD",
+      "iy": "0-0",
+      "iy_ms": "0/0",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Lommel United",
+      "away": "Zulte Waregem",
+      "kickoff": "22:45",
+      "league": "Pro League",
+      "score": "2-0",
+      "pct": 60,
+      "xg_home": 1.66,
+      "xg_away": 0.71,
+      "form_home": "LDWDW",
+      "form_away": "DLLLL",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Charleroi",
+      "away": "SK Beveren",
+      "kickoff": "22:45",
+      "league": "Pro League",
+      "score": "4-1",
+      "pct": 75,
+      "xg_home": 4.26,
+      "xg_away": 1.59,
+      "form_home": "DWWLW",
+      "form_away": "WLLDL",
+      "iy": "1-0",
+      "iy_ms": "1/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Inter",
+      "away": "Genoa",
+      "kickoff": "22:45",
+      "league": "Serie A",
+      "score": "3-1",
+      "pct": 70,
+      "xg_home": 3.01,
+      "xg_away": 1.35,
+      "form_home": "DWLWW",
+      "form_away": "WLWWW",
+      "iy": "1-0",
+      "iy_ms": "1/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Cambuur",
+      "away": "Sparta Rotterdam",
+      "kickoff": "23:00",
+      "league": "Eredivisie",
+      "score": "3-4",
+      "pct": 43,
+      "xg_home": 3.69,
+      "xg_away": 4.06,
+      "form_home": "WLWWD",
+      "form_away": "LLWLW",
+      "iy": "1-1",
+      "iy_ms": "0/2",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Real Madrid",
+      "away": "Alaves",
+      "kickoff": "23:00",
+      "league": "La Liga",
+      "score": "4-0",
+      "pct": 84,
+      "xg_home": 4.16,
+      "xg_away": 0.88,
+      "form_home": "WWWWW",
+      "form_away": "WDLDL",
+      "iy": "1-0",
+      "iy_ms": "1/1",
+      "odds": {}
+    },
+    {
+      "date": "2026-11-28",
+      "home": "Vitória SC",
+      "away": "Estrela",
+      "kickoff": "23:30",
+      "league": "Primeira Liga",
+      "score": "2-0",
+      "pct": 53,
+      "xg_home": 1.58,
+      "xg_away": 0.93,
+      "form_home": "LDWLD",
+      "form_away": "LLLLL",
+      "iy": "0-0",
+      "iy_ms": "0/1",
+      "odds": {}
     }
   ],
-  "updated": "2026-11-24T00:02:29.268010+03:00"
+  "updated": "2026-11-24T09:30:22.450190+03:00"
 }
