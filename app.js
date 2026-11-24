@@ -64,6 +64,7 @@ function openDetail(i){
     <p>Risk: <b class="${cls}">${p>=65?"Düşük":p>=50?"Orta":"Yüksek"}</b></p>
     ${m.xg_home?`<p class="small">xG: ${m.xg_home}-${m.xg_away||"?"}</p>`:""}
     ${m.form_home?`<p class="small">Form Ev: ${m.form_home}<br>Form Dep: ${m.form_away||"?"}</p>`:""}
+    ${oddsBlock(m)}
     <p><b>Neden bu skor?</b></p>
     <ul class="small">
       <li>Güven skoru %${p}</li>
@@ -90,3 +91,24 @@ document.getElementById("day").onchange=show;
 document.getElementById("league").onchange=show;
 document.getElementById("search").oninput=show;
 start();
+
+function oddsBlock(m) {
+  const o = m.odds || {};
+  if (!Object.keys(o).length) return "";
+  let html = "<p><b>Pazarlar</b></p><div class='small'>";
+  const map = {
+    "1": "MS 1", "X": "MS X", "2": "MS 2",
+    "over25": "2.5 Üst", "under25": "2.5 Alt",
+    "over15": "1.5 Üst", "under15": "1.5 Alt",
+    "over35": "3.5 Üst", "under35": "3.5 Alt",
+    "btts_yes": "KG Var", "btts_no": "KG Yok",
+    "dc_1x": "Çifte Şans 1X", "dc_12": "Çifte Şans 12", "dc_x2": "Çifte Şans X2",
+    "ht_over05": "İY 0.5 Üst", "ht_under05": "İY 0.5 Alt",
+    "corners_over95": "Korner 9.5 Üst", "cards_over35": "Kart 3.5 Üst"
+  };
+  for (const [k, label] of Object.entries(map)) {
+    if (o[k]) html += label + ": <b>" + o[k] + "</b><br>";
+  }
+  html += "</div>";
+  return html;
+}
